@@ -1,2 +1,2 @@
-# P-gina-Ernesto-Guhl
+# Página-Ernesto-Guhl
 Pagina web memorias Ernesto Guhl
