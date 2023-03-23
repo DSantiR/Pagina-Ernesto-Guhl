@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* quitamos stilos de defecto */
+    font-size: medium;
+    padding: 0;
+    color: white;
+
+}
+
+/* estilos del nav */
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: #88AD2B;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* estilos del name */
+.nav_name {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2.2rem;
+}
+
+.nav_name_a{
+    color: white;
+    text-decoration: none;
+}
+.nav_name_h3 {
+    font-size: 1.7rem;
+    /* quitamos stilos de defecto */
+    margin: 0;
+}
+
+.nav_name_span {
+    font-size: large;
+}
+
+
+/* estilos del la lista de navegación */
+
+.nav_ul {
+    /* quitamos stilos de defecto */
+    margin: 0;
+    /* estilos propios */
+    display: flex;
+    align-items: center;
+    margin-right: 2.2rem;
+    gap: 3rem;
+    height: 100%;
+    width: auto;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+.nav_ul_li{
+    position: relative;
+   
+    width: auto;
+    height: 1.9rem;
+}
+
+.nav_ul_li_a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_ul_li::before{
+    content:"";
+    position:absolute;
+    border-bottom: 3px solid white;
+    bottom: 0;
+    width: 0;
+    transition: all 800ms;
+}
+.nav_ul_li:hover::before{
+    width: 100%;
+    
+}
