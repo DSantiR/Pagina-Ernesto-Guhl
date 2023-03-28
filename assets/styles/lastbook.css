@@ -1,0 +1,64 @@
+@import url('./main.css');
+#last-section{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 10% 36% 8% 36% 10%;
+    grid-template-rows: 100px  45px 100px 200px;
+}
+#last-section nav{
+    background-color:var(--four-color) ;
+    grid-column: 1/6;
+    grid-row: 1;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#last-section nav img{
+    width: 200px;
+  opacity: 0.5;
+}
+.last-section_name {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2.2rem;
+}
+
+.last-section_a{
+    color: white;
+    text-decoration: none;
+}
+.last-section_h3 {
+    font-size: 1.7rem;
+    font-family: var(--bold-font);
+    margin: 0;
+    text-decoration: underline;
+}
+
+.last-section_span {
+    font-size: large;
+    font-family: var(--primary-font);
+}
+
+.semi-circle {
+    grid-column: 3/4;
+    grid-row: 2;
+     width: 100%; 
+     height: 45px; 
+     background: var(--four-color);
+     border-radius: 80px 80px 0 0;
+     transform: rotate(180deg);
+}
+
+.background-img{
+    width: 100%;
+    height: 800px;
+    grid-column: 1/6;
+    grid-row: 2/4;
+}
+
