@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: 10% 36% 8% 36% 10%;
     grid-template-rows: 100px  45px 100px 200px;
+    overflow: hidden;
 }
 #last-section nav{
     background-color:var(--four-color) ;

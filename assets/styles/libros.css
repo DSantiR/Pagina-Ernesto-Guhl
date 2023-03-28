@@ -1,0 +1,234 @@
+@import url("./main.css");
+
+#project{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* background: var(--four-color); */
+    top: 15rem;
+}
+
+
+
+/* aca va el baner de libros */
+.project_title {
+    width: 100%;
+    height: 5rem;
+    background-image: url("/assets/images/foto1.jpg");
+    margin-top: 90px;
+
+}
+
+/*navegacion de los proyect */
+
+#categories{
+    width: 100%;
+    height: 6rem; 
+    margin-top: 3rem;
+
+}
+
+.categories_nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+    
+}
+ 
+
+
+.categories_ul {
+    width: 95%;
+    height: 80%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(7, calc(100%/7));
+    box-shadow: 0px 0px 10px 3px var(--thirdr-color);
+   
+
+
+
+}
+
+.categories_li {
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    border-right: 1px solid var(--thirdr-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories_li:hover {
+    background-color: var(--four-color);
+    transition: 600ms;
+}
+
+.categories_li:hover>.categories_li_a {
+    color: white;
+}
+
+.libre_acceso {
+    display: flex;
+    gap: 12px;
+}
+
+.categories_li_img {
+    width: 26px;
+    height: 26px;
+    background-color: var(--primary-color);
+    border-radius: 18px;
+    padding: 5px;
+
+}
+
+.categories_li_a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: var(--primary-font);
+    font-weight: bold;
+
+    
+}
+
+
+
+
+/* cartas de los project */
+#categorie {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.categorie_title {
+    width: auto;
+    margin: auto;
+    margin-top: 30px;
+    font-size: xx-large;
+    font-family: var(--primary-font);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--primary-color);
+ 
+}
+
+.categorie_year {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.categorie_hr {
+    width: 50%;
+    height: 1.5px;
+    display: inline-block;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+.year {
+    font-size: 2rem;
+    color: var(--thirdr-color);
+
+}
+
+
+
+
+/* estilos de la carta de categori */
+.categorie_cars {
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:row ;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.cart{
+    width: 140px; ;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-color: blue; */
+
+
+}
+
+.cart_icon {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background-color: var(--primary-color);
+    border-radius: 18px;
+    padding: 3px;
+}
+
+.cart_img {
+    background-color: var(--four-color);
+    width: 100%;
+    height: 13rem;
+    border-radius: 20px 20px;
+}
+
+.cart_p {
+    width: 97%;
+    height: 2rem;
+    overflow: hidden;
+    color: var(--four-color);
+    display:flex;
+    justify-content: center;
+    font-family:var(--primary-font) ;
+  
+}
+
+.cart_button {
+    width: 5.5rem;
+    height: 1.9rem;
+    font-family:var(--primary-font) ;
+    font-size: small;
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--four-color);
+    border: 1px solid var(--four-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.line_fin{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 6px;
+    width: 70%;
+ 
+}
