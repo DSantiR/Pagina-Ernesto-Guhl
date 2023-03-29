@@ -19,8 +19,8 @@ body {
 
 }
 
-/* estilos del nav */
-.nav{
+/* -----------estilos del nav general ------------- */
+.nav {
     width: 100%;
     height: 90px;
     background-color: var(--primary-color);
@@ -28,12 +28,9 @@ body {
     justify-content: space-between;
     position: fixed;
     z-index: 9999;
-
-   
-  
 }
 
-/* estilos del name */
+/* ---------estilos del name ------------*/
 .nav_name {
     height: 100%;
     width: auto;
@@ -43,10 +40,11 @@ body {
     margin-left: 2.2rem;
 }
 
-.nav_name_a{
+.nav_name_a {
     color: white;
     text-decoration: none;
 }
+
 .nav_name_h3 {
     font-size: 1.7rem;
     font-family: var(--bold-font);
@@ -60,7 +58,7 @@ body {
 }
 
 
-/* estilos del la lista de navegación */
+/* -------------estilos del la lista de navegación----------- */
 
 .nav_ul {
     /* quitamos stilos de defecto */
@@ -75,27 +73,71 @@ body {
     list-style: none;
     font-size: 1.3rem;
 }
-.nav_ul_li{
+
+.nav_ul_li {
     position: relative;
     font-family: var(--primary-font);
     width: auto;
     height: 1.9rem;
 }
 
-.nav_ul_li_a {
+.nav_ul_li_a{
     text-decoration: none;
     color: white;
 }
 
-.nav_ul_li::before{
-    content:"";
-    position:absolute;
+.nav_ul_li::before {
+    content: "";
+    position: absolute;
     border-bottom: 3px solid white;
     bottom: 0;
     width: 0;
     transition: all 800ms;
 }
-.nav_ul_li:hover::before{
+
+.nav_ul_li:hover::before {
     width: 100%;
-    
+
+}
+
+
+/*----------------- estililos de las opciones del nav------------------- */
+
+.nav_ul_li_options {
+   
+    /* se quita estilos por defecto */
+    padding-inline-start:0;
+
+    /* estilos propios */
+    width: 125%;
+    background-color: var(--primary-color);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 33px;
+    position: relative;
+    left: -10px;
+   
+}
+
+
+.nav_ul_li:hover >.nav_ul_li_options{
+    display: flex;
+}
+
+.nav_ul_li_option{
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid white;  
+}
+.nav_ul_li_a_option:hover{
+    color: var(--four-color);
+    transition: all 400ms;
+}
+
+.nav_ul_li_a_option{
+    text-decoration: none;
+    color: white;
+    padding-left: 13px;
 }
