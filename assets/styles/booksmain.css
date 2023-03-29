@@ -1,17 +1,18 @@
 @import url('./main.css');
-#books-section{
+
+#books-section {
     margin-top: -17vh;
     width: 100%;
     height: 1000px;
     display: grid;
-    grid-template-columns: 10% 36% 8% 36% 10%;
-    grid-template-rows: 100px  45px 100px 200px;
+    grid-template-columns: 10% 36% 8% 10% 26% 10%;
+    grid-template-rows: 100px 200px 300px 200px;
     overflow: hidden;
 }
 
-#books-section nav{
-    background-color:var(--primary-color) ;
-    grid-column: 1/6;
+#books-section nav {
+    background-color: var(--primary-color);
+    grid-column: 1/7;
     grid-row: 1;
     width: 100%;
     height: 100px;
@@ -19,10 +20,11 @@
     justify-content: space-between;
 }
 
-#last-section nav img{
+#last-section nav img {
     width: 200px;
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 .books-section_name {
     height: 100%;
     width: auto;
@@ -32,10 +34,11 @@
     margin-left: 2.2rem;
 }
 
-.books-section_a{
+.books-section_a {
     color: white;
     text-decoration: none;
 }
+
 .books-section_h3 {
     font-size: 1.7rem;
     font-family: var(--bold-font);
@@ -48,24 +51,89 @@
 .semi-circle-books {
     grid-column: 3/4;
     grid-row: 2;
-     width: 100%; 
-     height: 45px; 
-     background: var(--primary-color);
-     border-radius: 80px 80px 0 0;
-     transform: rotate(180deg);
-     display: flex;
-     justify-content: center;
+    width: 100%;
+    height: 45px;
+    background: var(--primary-color);
+    border-radius: 80px 80px 0 0;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
 }
 
-.books-cards{
-    grid-column: 2/5;
+.bg-books {
+    grid-column: 1/7;
+    grid-row: 2/6;
+}
+
+.books-cards {
+    margin-top: 5vh;
+    grid-column: 1/5;
+    grid-row: 2/6;
     display: flex;
     flex-direction: column;
 
     /* grid-row: 2/3; */
 }
-.books-cards_
-.books-cards_cards-div{
+
+.books-cards_title {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+    text-decoration: underline;
+}
+
+.books-cards_cards-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards-div_card {
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cards-div_card .card-top {
+    width: 100%;
+    height: 300px;
+}
+
+.cards-div_card .card-top img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards-div_card .card-dowm {
+    padding: 5px 40px;
+    height: 140px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cards-div_card .card-dowm hr {
+    border: 1px solid var(--primary-color);
+}
+
+.books-cards-dowm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.books-cards_button {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
