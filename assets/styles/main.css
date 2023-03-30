@@ -10,3 +10,6 @@
     --primary-font: 'Avenir Medium';
     --bold-font:'Avenir Bold'
 }
+*{
+    font-family: var(--primary-font);
+}

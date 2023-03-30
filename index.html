@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/header.css">
-    <link rel="stylesheet" href="/assets/styles/responsive/headerRes.css">
-    <link rel="stylesheet" href="/assets/styles/projects.css">
-    <link rel="stylesheet" href="/assets/styles/mainPage.css">
-    <link rel="stylesheet" href="/assets/styles/lastbook.css">
-    <link rel="stylesheet" href="/assets/styles/booksmain.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/responsive/headerRes.css">
+    <link rel="stylesheet" href="./assets/styles/projects.css">
+    <link rel="stylesheet" href="./assets/styles/mainPage.css">
+    <link rel="stylesheet" href="./assets/styles/lastbook.css">
+    <link rel="stylesheet" href="./assets/styles/booksmain.css">
+    <link rel="stylesheet" href="./assets/styles/postmain.css">
     <title>Memorias Ernesto Guhl</title>
 </head>
 
@@ -28,11 +29,11 @@
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="./index.html">Inicio</a></li>
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="./pages/libros.html">Libros</a></li>
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="./pages/publicaciones.html">Publicaciones</a>
-                    <ul class="nav_ul_li_options">
-                        <li class="nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Articulos</a></li>
-                        <li class="nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Informes</a></li>
-                        <li class="nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Videos</a></li>
-                    </ul>
+                <ul class="nav_ul_li_options">
+                    <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Articulos</a></li>
+                    <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Informes</a></li>
+                    <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Videos</a></li>
+                </ul>
                 </li>
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="">Aplicaciones</a></li>
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="">Aporte a la Humanidad</a></li>
@@ -121,7 +122,7 @@
         <div class="semi-circle-books">
             <img src="./assets/icons/bxs-chevron-up.svg" alt="">
         </div>
-        <img src="assets/images/Fondo_Libros.png" alt="">
+        <img src="assets/images/Fondo_Libros.png" alt="" class="bg-books">
         <div class="books-cards">
             <div class="books-cards_title">
                 <h4>Últimos libros</h4>
@@ -129,7 +130,7 @@
             <div class="books-cards_cards-div">
                 <div class="cards-div_card">
                     <div class="card-top">
-                        <img src="./assets/images/book1.jpg" alt="">
+                        <img src="./assets/images/Libros_01.png" alt="">
                     </div>
                     <div class="card-dowm">
                         <hr>
@@ -137,38 +138,93 @@
                             Guía para la gestión ambiental regional y local
                         </p>
                     </div>
-
                 </div>
                 <div class="cards-div_card">
                     <div class="card-top">
-                        <img src="./assets/images/book1.jpg" alt="">
+                        <img src="./assets/images/Libros_02.png" alt="">
                     </div>
                     <div class="card-dowm">
                         <hr>
                         <p>
-                            Tecnologías limpias en proyectos viales
+                            Tecnologias limpias en proyectos viales
                         </p>
                     </div>
                 </div>
                 <div class="cards-div_card">
                     <div class="card-top">
-                        <img src="./assets/images/book1.jpg" alt="">
+                        <img src="./assets/images/Libros_03.png" alt="">
                     </div>
                     <div class="card-dowm">
-                        <hr>
+                        <hr style="FILL: #60762e;">
                         <p>
                             La gestión ambiental en Colombia, 1994 - 2014: ¿ Un esfuerzo sostenible?
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="books-cards_button">
-            <span>Ver todos</span>
-            <img src="assets/icons/bxs-chevron-right.svg" alt="" style="width:20px;height: 20px;">
+            <br>
+            <div class="books-cards-dowm">
+                <a class="books-cards_button" href="./pages/libros.html">
+                    <span>VER TODOS</span>
+                    <img src="assets/icons/bxs-chevron-right.svg" alt="" style="width:20px;height: 20px;">
+                </a>
+            </div>
         </div>
 
+
+
     </section>
+    <section id="post-section">
+        <nav>
+            <div class="post-section_name">
+                <a class="post-section_a" href="">
+                    <h3 class="post-section_h3">Publicaciones</h3>
+                </a>
+            </div>
+
+        </nav>
+        <div class="semi-circle-post">
+            <img src="./assets/icons/bxs-chevron-up.svg" alt="">
+        </div>
+    </section>
+
+
+    <div class="post-content">
+        <div>
+
+        </div>
+        <div>
+            <h6>ARTICULOS</h6>
+            <img src="assets/images/Publicaciones_01.png" alt=""><br>
+
+            __________________________________
+           
+            <p>LA REGIÓN DE LA QUE DEPENDE EL RIO BOGOTÁ</p>
+        </div>
+        <div>
+            <h6>VIDEOS</h6>
+            <img src="assets/images/Publicaciones_02.png" alt=""><br>
+            __________________________________
+            
+            <p>LOREM IPSUM DOLOR SIT AMET CONCEPTURI</p>
+            <br><br><br>
+            <div>
+                <a class="books-cards_button" href="./pages/publicaciones.html">
+                    <span>VER TODOS</span>
+                    <img src="assets/icons/bxs-chevron-right.svg" alt="" style="width:20px;height: 20px;"><br>
+                </a>
+            </div>
+        </div>
+        <div>
+            <h6>INFORMES</h6>
+            <img src="assets/images/Publicaciones_03.png" alt=""><br>
+            
+                __________________________________
+            
+            <p>ANALISIS DE ALTERNATIVAS FACTIBLES PARA EL SANEAMIENTO DEL RIO BOGOTÁ</p>
+        </div>
+    </div>
+
 
 </body>
 
