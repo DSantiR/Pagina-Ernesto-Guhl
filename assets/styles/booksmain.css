@@ -13,7 +13,7 @@
 .books-cards{
    background-image: url("../images/Fondo_Libros.png");
     background-size: cover;
-   height: 80vh;
+    height: 80vh;
 }
 
 .semi-circle-libros{
@@ -39,7 +39,7 @@
 
 .books-cards_cards-div {
     width: 65%;
-    height: auto;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

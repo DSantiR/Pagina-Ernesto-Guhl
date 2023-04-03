@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    z-index: 9999;
+    z-index: 9999999;
 }
 
 /* ---------estilos del name ------------*/
