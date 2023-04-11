@@ -159,13 +159,15 @@
 /* estilos de la carta de categori */
 .categorie_cars {
     width: 80%;
-    height: 20rem;
+    height: auto;
     margin: auto;
     /* background-color: aqua; */
     display: flex;
     flex-direction:row ;
     gap: 3rem;
     padding: 20px;
+    flex-wrap: wrap;
+    
 }
 
 .cart{
