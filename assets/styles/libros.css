@@ -211,9 +211,11 @@
     text-align: center;
     font-family:var(--primary-font) ;
     font-size: small;
+    
 }
 
 .cart_button {
+    
     width: 5.5rem;
     height: 1.9rem;
     font-family:var(--primary-font) ;
