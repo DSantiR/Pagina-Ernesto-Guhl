@@ -202,17 +202,20 @@
 }
 
 .cart_p {
-    width: 97%;
-    height: 2rem;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     color: var(--four-color);
     display:flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
     font-family:var(--primary-font) ;
-  font-size: small;
+    font-size: small;
+    
 }
 
 .cart_button {
+    
     width: 5.5rem;
     height: 1.9rem;
     font-family:var(--primary-font) ;
