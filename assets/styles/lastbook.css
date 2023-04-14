@@ -92,6 +92,7 @@
 .antropoceno_h1_p{
     width: 100%;
     height: 20%;
+    overflow: hidden;
 }
 
 .antropoceno-div h1{

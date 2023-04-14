@@ -38,7 +38,7 @@
 
 
 .books-cards_cards-div {
-    width: 65%;
+    width: 55%;
     height: 50vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
