@@ -39,7 +39,7 @@
 
 .books-cards_cards-div {
     width: 55%;
-    height: 50vh;
+    height: 45vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
@@ -74,13 +74,18 @@
 }
 
 .cards-div_card .card-dowm {
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
     height: 40%;
-    font-size: 1.1em;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+
 }
 
 .cards-div_card .card-dowm hr {
+    width: 50%;
     border: 1px solid var(--primary-color);
 }
 
