@@ -115,9 +115,10 @@
     text-align: end;
     font-size: 1em;
     width: 100%;
-    height: auto;
-    margin-top: 2rem;
-    overflow: hidden;
+    height: 60%;
+    margin-top: 1.5rem;
+    overflow-y: scroll;
+    
 }
 
 .antropoceno_buttom{
