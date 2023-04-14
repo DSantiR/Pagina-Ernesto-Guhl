@@ -44,9 +44,7 @@
     flex-direction: row;
     justify-content: space-around;
     overflow: hidden;
-    margin-top: 1.2rem;
-    background-color: aqua;
-    
+    margin-top: 1.2rem; 
 }
 
 

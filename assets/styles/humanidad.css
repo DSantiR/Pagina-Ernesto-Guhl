@@ -70,10 +70,10 @@
 }
 
 .humanidad_cart_img {
-    width: 70px;
-    height: 70px;
+    width: 4rem;
+    height:4rem;
     position: absolute;
-    right: -70px;
+    right: -10%;
     top: 0;
     z-index:200;
 

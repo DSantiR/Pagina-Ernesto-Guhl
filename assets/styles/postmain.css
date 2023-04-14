@@ -11,7 +11,6 @@
     height: 80vh;
     display: flex;
     flex-direction: row;
-    background-color: aqua;
 }
 .post-content-div{
     display: flex;
@@ -20,12 +19,13 @@
     width: 25%;
     height: 80vh;
     color: black;
-    background-color:blueviolet;
+    
 }
 
 .post-content-div:nth-child(2){
     background-image: url(../images/Fondo_Articulos.png);
     background-size: cover;
+    
     
 }
 .post-content-div:nth-child(3){
@@ -42,14 +42,14 @@
 
 }
 .post-content-div h6{
-    font-size: 32px;
-    margin-top: 1rem;
+    font-size: 2em;
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 .post-content-div img{
     border-radius: 50%;
-    width: 220px;
-    height: 220px;
+    width: 15rem;
+    height: 15rem;
     margin-top: 1rem;
 }
 
@@ -61,7 +61,7 @@
 
 .line{
     border: 1px solid black;
-    height: 100px;
+    height: 3rem;
 } 
 
 .books-cards_button-modifid img{
