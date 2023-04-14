@@ -117,7 +117,7 @@
     font-size: 1em;
     width: 100%;
     height: auto;
-    overflow-y: scroll;
+   overflow: hidden;
 }
 
 .antropoceno_buttom{
