@@ -40,11 +40,11 @@
 .books-cards_cards-div {
     width: 65%;
     height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
     margin-top: 1.2rem; 
+    margin-left: 3rem;
 }
 
 
