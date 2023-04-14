@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 36px;
+    font-size: 2em;
     color: white;
     text-decoration: underline;
     padding-top: 1rem;
@@ -45,6 +45,7 @@
     justify-content: space-around;
     overflow: hidden;
     margin-top: 1.2rem;
+    background-color: aqua;
     
 }
 
@@ -52,7 +53,8 @@
 .cards-div_card {
     border: 1px solid white;
     background-color: white;
-    width: 220px;
+    width: 13rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -60,7 +62,7 @@
 
 .cards-div_card .card-top {
     width: 100%;
-    height: 190px;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +77,8 @@
 
 .cards-div_card .card-dowm {
     padding: 5px 20px;
-    height: 120px;
-    font-size: 18px;
+    height: 40%;
+    font-size: 1.1em;
     text-align: center;
 }
 
@@ -95,11 +97,12 @@
 
 .books-cards_button {
     color: white;
-    height: 50px;
-    width: 200px;
+    height: 3rem;
+    width: 10rem;
     background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+   
     }   
