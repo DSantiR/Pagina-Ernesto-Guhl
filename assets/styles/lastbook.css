@@ -91,21 +91,20 @@
 
 .antropoceno_h1_p{
     width: 100%;
-    
     overflow: hidden;
 }
 
 .antropoceno-div h1{
     color: var(--primary-color);
     font-family: var(--bold-font);
-    font-size: 3.5em;
+    font-size: 3.4em;
     margin: 0;
     text-align: end;
 }
 
 .antropoceno-sub{
     color: var(--primary-color);
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: justify;
     font-family: var(--bold-font);
     text-align: end;
