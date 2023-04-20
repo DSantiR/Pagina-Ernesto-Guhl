@@ -1,12 +1,16 @@
  const libros = [ 
     {
-        titulo:"DISEÑO INSTITUCIONAL PARA APLICAR LA GESTIÓN INTEGRADA DEL AGUA Y DEL TERRITORIO GIAT.",
-        fecha:2014,
-        tipo:"Analisis Territorial",
-        subtipo:"Escala Local",
-        url:"url_SM",
-        url_image:"../images/"
-    }
+        titulo: "",
+        fecha: 456,
+        escala_regional: true,
+        escala_local: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: false,
+        tecnologias_limpias: false,
+        url: "",
+        url_image: "",
+        name: ""
+    },
  ]
 
  export default libros;
