@@ -102,7 +102,7 @@
 
 
 /* cartas de los project */
-#categorie {
+.categorie {
     width: 100%;
     height: auto;
     display: flex;

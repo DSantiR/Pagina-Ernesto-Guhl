@@ -1,16 +1,172 @@
- const libros = [ 
+const Libros = [
     {
-        titulo: "",
-        fecha: 456,
-        escala_regional: true,
-        escala_local: false,
+        titulo: "NUESTRA AGUA ¿DE DONDE VIENE Y PARA DONDE VA?",
+        fecha: 2015,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: false,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: true,
+        tecnologias_limpias: false
+    },
+    {
+        titulo: "LA GESTIÓN AMBIENTAL EN COLOMBIA, 1994-2014: ¿UN ESFUERZO INSOSTENIBLE?",
+        fecha: 2015,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
-        tecnologias_limpias: false,
-        url: "",
-        url_image: "",
-        name: ""
+        tecnologias_limpias: true
     },
- ]
+    {
+        titulo: "EL AGUA DE LOS ANDES",
+        fecha: 2010,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: false,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: true,
+        tecnologias_limpias: false
+    },
+    {
+        titulo: "GESTIÓN INTEGRADA DEL RECURSO HÍDRICO EN COLOMBIA",
+        fecha: 2007,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: true,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: true,
+        tecnologias_limpias: true
+    },
+    {
+        titulo: "ATLAS DEL RIO GRANDE DE LA MAGDALENA",
+        fecha: 2002,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: true,
+        escalas_locales: false,
+        investigacion_ambiental: true,
+        manejo_de_agua: false,
+        tecnologias_limpias: false
+    },
+    {
+        titulo: "TECNOLOGÍAS LÍMPIAS EN PROYECTOS VIALES",
+        fecha: 2000,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: false,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: false,
+        tecnologias_limpias: true
+    },
+    {
+        titulo: "GUÍA PARA LA GESTIÓN AMBIENTAL REGIONAL Y LOCAL",
+        fecha: 1998,
+        url_image: "",
+        url: "",
+        tipo: 1,
+        escalas_regionales: false,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: false,
+        tecnologias_limpias: true
+    },
+    {
+        titulo: "LOS PARAMOS CIRCUNDANTES DE LA SABANA DE BOGOTA",
+        fecha: 2015,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales: true,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: true,
+        tecnologias_limpias: true
+    },
+    {
+        titulo: "EL AGUA UN PATRIMONIO QUE CIRCULA DE MANO EN MANO",
+        fecha: 2011,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales: true,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: true,
+        tecnologias_limpias: true
+    },
+    {
+        titulo: "SISTEMA NACIONAL AMBIENTAL",
+        fecha: 2008,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales: true,
+        escalas_locales: false,
+        investigacion_ambiental: true,
+        manejo_de_agua: false,
+        tecnologias_limpias: false
+    },
+    {
+        titulo: "HACIA EL DESARROLLO SOSTENIBLE EN COLOMBIA",
+        fecha: 2008,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales: false,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: false,
+        tecnologias_limpias: false
+    },
+    {
+        titulo: "GOBERNABILIDAD INSTITUCIONES Y MEDIO AMBIENTE",
+        fecha: 2007,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales: true,
+        escalas_locales: false,
+        investigacion_ambiental: true,
+        manejo_de_agua: false,
+        tecnologias_limpias: false
+    },
+    {
+        titulo: "QUE ESTA PASANDO EN COLOMBIA",
+        fecha: 2000,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales:false,
+        escalas_locales:true,
+        investigacion_ambiental:false,
+        manejo_de_agua: false,
+        tecnologias_limpias:false
+    },
+    {
+        titulo: "VIDA Y REGION. GESTION AMBIENTAL EN EL VALLE DEL CAUCA",
+        fecha: 2000,
+        url_image: "",
+        url: "",
+        tipo: 2,
+        escalas_regionales:false,
+        escalas_locales:true,
+        investigacion_ambiental:false,
+        manejo_de_agua: false,
+        tecnologias_limpias:false
+    },
+]
 
- export default libros;
+export default Libros
