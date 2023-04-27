@@ -3,7 +3,7 @@ const Libros = [
         titulo: "NUESTRA AGUA ¿DE DONDE VIENE Y PARA DONDE VA?",
         fecha: 2015,
         url_image: "../assets/images/Libros_img/libro_2.png",
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a1",
+        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo: 1,
         escalas_regionales: false,
         escalas_locales: false,
