@@ -12,12 +12,13 @@ let template_content = document.getElementById('template_content')
 let books_div = document.getElementById('categorie_books')
 let caps_div = document.getElementById('categorie_caps')
 let boton_eliminar_filtro = document.getElementById('Borrar')
+let render_años = false;
 
 
 
 
-const libros = []
-const capitulos = []
+let libros = []
+let capitulos = []
 let años_libros = []
 let años_capitulos = []
 let temporal = []
@@ -34,10 +35,17 @@ function main() {
 }
 
 function renderAños() {
-    let concat_años = [...años_libros, ...años_capitulos]
+    let concat_años = []
+    if(render_años === false ){
+        concat_años = [...años_libros, ...años_capitulos]
+        renderAños = true
+    }
+
     concat_años = concat_años.filter((item, index) => {
         return concat_años.indexOf(item) === index;
     })
+
+
     concat_años.sort((a, b) => {
         return b - a;
     });
@@ -312,7 +320,7 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
             if (item.fecha === 1998) {
                 let template_c = template_content.content.cloneNode(true)
@@ -328,8 +336,8 @@ function renderAños() {
 
         })
 
-        
-    
+
+
     })
 
 
@@ -627,5 +635,13 @@ libros_tec.addEventListener("click", function () {
 
 boton_eliminar_filtro.addEventListener("click", function () {
     eliminarFiltro()
+    libros = []
+    capitulos = []
+    años_libros = []
+    años_capitulos = []
+    temporal = []
+    cap_temporal = []
+    años_temporal = []
+    años_capitulost = []
     main()
 });

@@ -14,11 +14,12 @@ let template_content = document.getElementById('template_content')
 let boton_eliminar_filtro = document.getElementById('Borrar')
 let books_div = document.getElementById('categorie_books')
 let caps_div = document.getElementById('categorie_caps')
+let render_años = false
 
 
 
-const libros = []
-const capitulos = []
+let libros = []
+let  capitulos = []
 let años_libros = []
 let años_capitulos = []
 let temporal = []
@@ -28,6 +29,7 @@ let años_capitulost = []
 
 
 function main() {
+
     clasificación()
     ordenar()
     mostrar()
@@ -35,7 +37,11 @@ function main() {
 }
 
 function renderAños() {
-    let concat_años = [...años_libros, ...años_capitulos]
+    let concat_años = []
+    if(render_años === false ){
+        concat_años = [...años_libros, ...años_capitulos]
+        renderAños = true
+    }
     concat_años = concat_años.filter((item, index) => {
         return concat_años.indexOf(item) === index;
     })
@@ -432,9 +438,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 2005){
+            if (item.fecha === 2005) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -470,7 +476,7 @@ function renderAños() {
 
         })
 
-    
+
     })
     p[8].addEventListener("click", (e) => {
         eliminarFiltro()
@@ -484,9 +490,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 2004){
+            if (item.fecha === 2004) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -522,7 +528,7 @@ function renderAños() {
 
         })
 
-    
+
     })
     p[9].addEventListener("click", (e) => {
         eliminarFiltro()
@@ -536,9 +542,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 2003){
+            if (item.fecha === 2003) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -574,7 +580,7 @@ function renderAños() {
 
         })
 
-    
+
     })
     p[10].addEventListener("click", (e) => {
         eliminarFiltro()
@@ -588,9 +594,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 2001){
+            if (item.fecha === 2001) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -626,7 +632,7 @@ function renderAños() {
 
         })
 
-    
+
     })
     p[11].addEventListener("click", (e) => {
         eliminarFiltro()
@@ -640,9 +646,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 2000){
+            if (item.fecha === 2000) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -678,7 +684,7 @@ function renderAños() {
 
         })
 
-    
+
     })
     p[12].addEventListener("click", (e) => {
         eliminarFiltro()
@@ -692,9 +698,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 1999){
+            if (item.fecha === 1999) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -730,7 +736,7 @@ function renderAños() {
 
         })
 
-    
+
     })
     p[13].addEventListener("click", (e) => {
         eliminarFiltro()
@@ -744,9 +750,9 @@ function renderAños() {
         books_div.appendChild(template)
 
 
-        
+
         libros.forEach((item) => {
-            if (item.fecha === 1998){
+            if (item.fecha === 1998) {
                 let template_c = template_content.content.cloneNode(true)
                 let div = document.getElementById(`book-${item.fecha}`)
                 let image = template_c.querySelector("img")
@@ -782,7 +788,7 @@ function renderAños() {
 
         })
 
-    
+
     })
 
 
@@ -1078,6 +1084,14 @@ libros_tec.addEventListener("click", function () {
 });
 boton_eliminar_filtro.addEventListener("click", function () {
     eliminarFiltro()
+    libros = []
+    capitulos = []
+    años_libros = []
+    años_capitulos = []
+    temporal = []
+    cap_temporal = []
+    años_temporal = []
+    años_capitulost = []
     main()
 });
 
