@@ -9,9 +9,10 @@ let libros_tec = document.getElementById('books_tec-limpias')
 let fecha_div = document.getElementById('books_tec-fecha')
 let template_elemento = document.getElementById('template_elemento')
 let template_content = document.getElementById('template_content')
-let template_p = document.getElementById('template_parrafo')
 let books_div = document.getElementById('categorie_books')
 let caps_div = document.getElementById('categorie_caps')
+let boton_eliminar_filtro = document.getElementById('Borrar')
+
 
 
 
@@ -624,4 +625,7 @@ libros_tec.addEventListener("click", function () {
 });
 
 
-
+boton_eliminar_filtro.addEventListener("click", function () {
+    eliminarFiltro()
+    main()
+});

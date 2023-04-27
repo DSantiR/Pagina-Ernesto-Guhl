@@ -21,7 +21,7 @@ const Libros = [
         escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
-        tecnologias_limpias: true
+        tecnologias_limpias: false
     },
 
     {
@@ -94,7 +94,7 @@ const Libros = [
         escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
-        tecnologias_limpias: true
+        tecnologias_limpias: false
     },
     {
         titulo: "EL AGUA UN PATRIMONIO QUE CIRCULA DE MANO EN MANO",
@@ -106,7 +106,7 @@ const Libros = [
         escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
-        tecnologias_limpias: true
+        tecnologias_limpias: false
     },
     {
         titulo: "SISTEMA NACIONAL AMBIENTAL",

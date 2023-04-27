@@ -11,7 +11,7 @@ let libros_tec = document.getElementById('books_tec-limpias')
 let fecha_div = document.getElementById('books_tec-fecha')
 let template_elemento = document.getElementById('template_elemento')
 let template_content = document.getElementById('template_content')
-let template_p = document.getElementById('template_parrafo')
+let boton_eliminar_filtro = document.getElementById('Borrar')
 let books_div = document.getElementById('categorie_books')
 let caps_div = document.getElementById('categorie_caps')
 
@@ -732,7 +732,58 @@ function renderAños() {
 
     
     })
+    p[13].addEventListener("click", (e) => {
+        eliminarFiltro()
+        temporal = []
+        cap_temporal = []
+        let template = template_elemento.content.cloneNode(true);
+        let year = template.querySelector("span")
+        let div_books = template.querySelector(".categorie_cars")
+        div_books.setAttribute("id", `book-${1998}`)
+        year.innerHTML = 1998
+        books_div.appendChild(template)
+
+
+        
+        libros.forEach((item) => {
+            if (item.fecha === 1998){
+                let template_c = template_content.content.cloneNode(true)
+                let div = document.getElementById(`book-${item.fecha}`)
+                let image = template_c.querySelector("img")
+                let a = template_c.querySelector("a")
+                let p = template_c.querySelector("p")
+                image.setAttribute('src', item.url_image)
+                a.setAttribute('href', item.url)
+                p.innerHTML = item.titulo
+                div.appendChild(template_c)
+            }
+
+        })
+
+        let templatec = template_elemento.content.cloneNode(true);
+        let div_booksc = templatec.querySelector(".categorie_cars")
+        let yearc = templatec.querySelector("span")
+        div_booksc.setAttribute("id", `cap-${1998}`)
+        yearc.innerHTML = 1998
+        caps_div.appendChild(templatec)
+
+        capitulos.forEach((item) => {
+            if (item.fecha === 1998) {
+                let template_c = template_content.content.cloneNode(true)
+                let div = document.getElementById(`cap-${item.fecha}`)
+                let image = template_c.querySelector("img")
+                let a = template_c.querySelector("a")
+                let p = template_c.querySelector("p")
+                image.setAttribute('src', item.url_image)
+                a.setAttribute('href', item.url)
+                p.innerHTML = item.titulo
+                div.appendChild(template_c)
+            }
+
+        })
+
     
+    })
 
 
 }
@@ -1024,6 +1075,10 @@ libros_agua.addEventListener("click", function () {
 });
 libros_tec.addEventListener("click", function () {
     filtrar(5)
+});
+boton_eliminar_filtro.addEventListener("click", function () {
+    eliminarFiltro()
+    main()
 });
 
 
