@@ -313,11 +313,12 @@
     margin-top: 2rem;
     
 }
-.filter_one,.filter_two,.filter_three{
+.filter_one,.filter_two,.filter_three, .filter_four{
     width: 100%;
     display: none;
     justify-content: center;
     gap: 4rem;
+    flex-wrap: wrap;
 
 }
 .filter_tipo{
@@ -329,6 +330,7 @@
     padding-right: 2rem;
     height: 5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -341,6 +343,9 @@
     display: flex;
 }
 .three{
+    display: flex;
+}
+.four{
     display: flex;
 }
 .add{display: flex;}
