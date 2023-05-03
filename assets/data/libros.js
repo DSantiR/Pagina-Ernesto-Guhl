@@ -1,5 +1,17 @@
 const Libros = [
     {
+        titulo: "ANTROPOCENO: LA HUELLA HUMANA",
+        fecha: 2022,
+        url_image: "../assets/images/Antropoceno.jpg",
+        url: "",
+        tipo: 1,
+        escalas_regionales: true,
+        escalas_locales: true,
+        investigacion_ambiental: true,
+        manejo_de_agua: true,
+        tecnologias_limpias: true
+    },
+    {
         titulo: "NUESTRA AGUA ¿DE DONDE VIENE Y PARA DONDE VA?",
         fecha: 2015,
         url_image: "../assets/images/Libros_img/libro_2.png",

@@ -99,10 +99,10 @@
 }
 
 .books-cards_button {
-    color: white;
+    color: var(--primary-color);
     height: 3rem;
     width: 10rem;
-    background-color: var(--primary-color);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;

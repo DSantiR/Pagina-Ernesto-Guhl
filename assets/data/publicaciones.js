@@ -3,31 +3,13 @@ const publicaciones = [
     // informes 
 
     // esperar en reunion no se encontro en el exel 
-    // {
-    //     titulo:"ANÁLISIS DE ALTERNATIVAS FACTIBLES PARA EL SANEAMIENTO DEL RÍO BOGOTÁ",
-    //     fecha:2000,
-    //     tipo:{
-    //         analisis_territorial:true,
-    //         formulacion_de_politicas:false,
-    //         tegnologias_limpias:false,
-    //     },
-    //     subtipo:{
-    //         escalas_regionales:true,
-    //         escalas_locales:true,
-    //         investigacion_ambiental:false,
-    //         manejo_de_agua:false,
-    //         tegnologias_limpias:false,
-    //     },
-    //     url:"https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=e9fdbc91e6804156bf8b0410a686b165",
-    //     url_image:"../assets/images/publicaciones_img/informes_img/informe_18.png",
-    //     name:"Informes"
-    // },
+  
     // --------------------------------------------------------------------------------
     {
         titulo: "DISEÑO INSTITUCIONAL PARA APLICAR LA GESTIÓN INTEGRADA DEL AGUA Y DEL TERRITORIO GIAT.",
         fecha: 2014,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -39,8 +21,8 @@ const publicaciones = [
     {
         titulo: "MANUAL OPERATIVO DEL BANCO DE PROYECTOS CAR",
         fecha: 2014,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: true,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -51,8 +33,8 @@ const publicaciones = [
     {
         titulo: "LA REGIÓN HÍDRICA DE CUNDINAMARCA-BOGOTÁ,UNA PROPUESTA CONCEPTUAL.",
         fecha: 2013,
-        escala_regional: true,
-        escala_local: true,
+        escalas_regionales: true,
+        escalas_locales: true,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: true,
@@ -63,8 +45,8 @@ const publicaciones = [
     {
         titulo: "CONCEPTUALIZACIÓN Y FORMULACIÓN DEL PLAN DE ACCIÓN AMBIENTAL PARA COLOMBIA PAAC 210-2014.",
         fecha: 2011,
-        escala_regional: true,
-        escala_local: true,
+        escalas_regionales: true,
+        escalas_locales: true,
         investigacion_ambiental: true,
         manejo_de_agua: true,
         tecnologias_limpias: true,
@@ -75,8 +57,8 @@ const publicaciones = [
     {
         titulo: "El Buen Gobierno del Agua",
         fecha: 2010,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -87,8 +69,8 @@ const publicaciones = [
     {
         titulo: "LOS ANDES: LAS MONTAÑAS DONDE NACE EL AGUA",
         fecha: 2009,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -99,8 +81,8 @@ const publicaciones = [
     {
         titulo: "PLANES INSTITUCIONALES CUATRIENALES DE LOS INSTITUTOS DE INVESTIGACIÓN DEL SINA-PICA - GUIA PARA SU FORMULACIÓN.",
         fecha: 2007,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -111,8 +93,8 @@ const publicaciones = [
     {
         titulo: "AJUSTE DEL PLAN ESTRATÉGICO DEL SINCHI AL PLAN NACIONAL DE DESARROLLO 2006-2010 -TÉCNICO.",
         fecha: 2007,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -123,8 +105,8 @@ const publicaciones = [
     {
         titulo: "AJUSTE DEL PLAN ESTRATÉGICO DEL SINCHI AL PLAN NACIONAL DE DESARROLLO 2006-2010 -TÉCNICO",
         fecha: 2007,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=bbfb93333cc74093a59e225f8b3fb0bf",
@@ -135,8 +117,8 @@ const publicaciones = [
     {
         titulo: "PLAN ESTRATÉGICO NACIONAL DE INVESTIGACIÓN AMBIENTAL PENIA - INSTITUTOS DE INVESTIGACIÓN ADSCRITOS Y VINCULADOS AL MAVDT.",
         fecha: 2007,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -147,8 +129,8 @@ const publicaciones = [
     {
         titulo: "POLÍTICA AMBIENTAL DE LA EMPRESA DE ENERGÍA DE BOGOTÁ",
         fecha: 2006,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -159,8 +141,8 @@ const publicaciones = [
     {
         titulo: "PLAN DIRECTOR DE TOMINÉ DIAGNÓSTICO.",
         fecha: 2005,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -171,8 +153,8 @@ const publicaciones = [
     {
         titulo: "Plan Director de Tominé Fase Prospectiva",
         fecha: 2005,
-        escala_regional: true,
-        escala_local: true,
+        escalas_regionales: true,
+        escalas_locales: true,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -184,8 +166,8 @@ const publicaciones = [
     {
         titulo: "Manual General de Desarrollo y Operación del BPCAR.",
         fecha: 2004,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -197,8 +179,8 @@ const publicaciones = [
     {
         titulo: "IDENTIFICACIÓN DE LAS CUENCAS PRIORITARIAS PARA DECLARAR EN ORDENACIÓN.",
         fecha: 2003,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -211,8 +193,8 @@ const publicaciones = [
     {
         titulo: "ESTRATEGIA FINANCIERA PARA EL PLAN DE GESTIÓN AMBIENTAL REGIONAL",
         fecha: 2001,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -224,8 +206,8 @@ const publicaciones = [
     {
         titulo: "PLAN DE GESTIÓN AMBIENTAL REGIONAL",
         fecha: 2001,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=984c40d053364c91ab54e956d7742279",
@@ -236,8 +218,8 @@ const publicaciones = [
     {
         titulo: "DIAGNÓSTICO AMBIENTAL REGIONAL Y LOCAL Y ANÁLISIS TENDENCIAL Y PROSPECTIVO DE CADA REGIONAL CAR",
         fecha: 2001,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -249,8 +231,8 @@ const publicaciones = [
     {
         titulo: "PLAN DE ACCIÓN TRIANUAL",
         fecha: 2001,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -258,12 +240,24 @@ const publicaciones = [
         url_image: "../assets/images/publicaciones_img/informes_img/informe_!7.png",
         tipo: 1,
     },
+    {
+        titulo: "ANÁLISIS DE ALTERNATIVAS FACTIBLES PARA EL SANEAMIENTO DEL RÍO BOGOTÁ",
+        fecha: 2000,
+        escalas_regionales: true,
+        escalas_locales: true,
+        investigacion_ambiental: false,
+        manejo_de_agua: false,
+        teCnologias_limpias: false,
+        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=e9fdbc91e6804156bf8b0410a686b165",
+        url_image: "../assets/images/publicaciones_img/informes_img/informe_18.png",
+        tipo: 1,
+    },
 
     {
         titulo: "ESTUDIO DE ZONIFICACIÓN Y PLANIFICACIÓN SOCIOAMBIENTAL DEL CORREDOR VIAL BOGOTÁ-BUENAVENTURA",
         fecha: 2000,
-        escala_regional: true,
-        escala_local: true,
+        escalas_regionales: true,
+        escalas_locales: true,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -275,8 +269,8 @@ const publicaciones = [
     {
         titulo: "DIAGNÓSTICO SOBRE CAPACIDADES Y NECESIDADES DE TECNOLOGÍAS LIMPIAS EN COLOMBIA Y SUS POSIBILIDADES DE COMERCIALIZACIÓN A PAÍSES DE AMÉRICA LATINA Y EL CARIBE",
         fecha: 1999,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: true,
@@ -288,8 +282,8 @@ const publicaciones = [
     {
         titulo: "Evaluación del Manual para la capacitación y manejo de las áreas protegidas dela Región Amazónica",
         fecha: 1998,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -309,8 +303,8 @@ const publicaciones = [
     {
         titulo: "PROGRAMA REGIONAL DE PLANIFICACIÓN Y MANEJO DE ÁREAS PROTEGIDAS DE LA REGIÓN AMAZÓNICA.",
         fecha: 1998,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -326,8 +320,8 @@ const publicaciones = [
     {
         titulo: "HACIA UNA ESTRATEGIA ANDINA PARA LA GESTIÓN INTEGRADA DE RECURSOS HÍDRICOS EA GIRH",
         fecha: 2009,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -338,8 +332,8 @@ const publicaciones = [
     {
         titulo: "AJUSTE DEL PLAN DE GESTION AMBIENTAL REGIONAL - PGAR 2002-2012 - Y ELABORACIÓN DEL PLAN DE ACCION TRIANUAL PAT 2004-2006",
         fecha: 2004,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -351,8 +345,8 @@ const publicaciones = [
     {
         titulo: "Construcción Participativa de los Escenarios de prospección para el Plan de Ordenación de la Cuenca Hidrográfica de la Miel",
         fecha: 2004,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -363,8 +357,8 @@ const publicaciones = [
     {
         titulo: "Tecnoloogias Límpias en Proyectos Viales",
         fecha: 2000,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: true,
@@ -377,9 +371,9 @@ const publicaciones = [
 
         fecha: 2015,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: true,
+        escalas_locales: true,
 
         investigacion_ambiental: false,
 
@@ -404,9 +398,9 @@ const publicaciones = [
 
         fecha: 2015,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -434,9 +428,9 @@ const publicaciones = [
 
         fecha: 2015,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -461,9 +455,9 @@ const publicaciones = [
 
         fecha: 2014,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -488,9 +482,9 @@ const publicaciones = [
 
         fecha: 2014,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -511,8 +505,8 @@ const publicaciones = [
     , {
         titulo: "ES IRREVERSIBLE LA PROFUNDA CRISIS AMBIENTAL?",
         fecha: 2013,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -523,8 +517,8 @@ const publicaciones = [
     }, {
         titulo: "EL PARAÍSO PERDIDO – LA AMAZONIA EN EL 2035",
         fecha: 2012,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -535,8 +529,8 @@ const publicaciones = [
     }, , {
         titulo: "DE LA VORAGINE A LA TIERRA DE PROMISIÓN",
         fecha: 2011,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -551,9 +545,9 @@ const publicaciones = [
 
         fecha: 2008,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -571,8 +565,8 @@ const publicaciones = [
     , {
         titulo: "MEDIO AMBIENTE Y DESARROLLO - ¿UNA POSIBILIDAD REAL?",
         fecha: 2009,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: true,
@@ -586,9 +580,9 @@ const publicaciones = [
 
         fecha: 2007,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -608,9 +602,9 @@ const publicaciones = [
 
         fecha: 2006,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -630,9 +624,9 @@ const publicaciones = [
 
         fecha: 2005,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -646,15 +640,15 @@ const publicaciones = [
 
         tipo: 2,
 
-    },    {
+    }, {
 
         titulo: "LA DEMOLICIÓN DEL SISTEMA AMBIENTAL",
 
         fecha: 2004,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -668,16 +662,16 @@ const publicaciones = [
 
         tipo: 2,
 
-    }, 
+    },
     {
 
         titulo: "EL MARCHITAMIENTO AMBIENTAL",
 
         fecha: 2003,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -698,9 +692,9 @@ const publicaciones = [
 
         fecha: 2002,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -724,9 +718,9 @@ const publicaciones = [
 
         fecha: 2001,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -751,9 +745,9 @@ const publicaciones = [
 
         fecha: 2000,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -778,9 +772,9 @@ const publicaciones = [
 
         fecha: 2000,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -807,9 +801,9 @@ const publicaciones = [
 
         fecha: 2002,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -832,9 +826,9 @@ const publicaciones = [
 
         fecha: 1999,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -860,9 +854,9 @@ const publicaciones = [
 
         fecha: 2003,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -878,7 +872,7 @@ const publicaciones = [
 
     },
 
-   
+
 
     {
 
@@ -886,9 +880,9 @@ const publicaciones = [
 
         fecha: 2004,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -910,9 +904,9 @@ const publicaciones = [
 
         fecha: 2004,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -934,9 +928,9 @@ const publicaciones = [
 
         fecha: 2004,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -958,9 +952,9 @@ const publicaciones = [
 
         fecha: 2004,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -982,9 +976,9 @@ const publicaciones = [
 
         fecha: 2004,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1000,7 +994,7 @@ const publicaciones = [
 
     },
 
-   
+
 
     {
 
@@ -1008,9 +1002,9 @@ const publicaciones = [
 
         fecha: 2005,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -1037,9 +1031,9 @@ const publicaciones = [
 
         fecha: 2005,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1061,9 +1055,9 @@ const publicaciones = [
 
         fecha: 2005,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -1083,9 +1077,9 @@ const publicaciones = [
 
         fecha: 2004,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1107,9 +1101,9 @@ const publicaciones = [
 
         fecha: 2006,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1131,9 +1125,9 @@ const publicaciones = [
 
         fecha: 2006,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1155,9 +1149,9 @@ const publicaciones = [
 
         fecha: 2006,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -1179,9 +1173,9 @@ const publicaciones = [
 
         fecha: 2006,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1203,9 +1197,9 @@ const publicaciones = [
 
         fecha: 2006,
 
-        escala_regional: true,
+        escalas_regionales: true,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: false,
 
@@ -1231,9 +1225,9 @@ const publicaciones = [
 
         fecha: 2007,
 
-        escala_regional: false,
+        escalas_regionales: false,
 
-        escala_local: false,
+        escalas_locales: false,
 
         investigacion_ambiental: true,
 
@@ -1251,11 +1245,11 @@ const publicaciones = [
 
 
 
- {
+    {
         titulo: "LA GOBERNANZA DEL AGUA, ¿PUBLICA O PRIVADA?",
         fecha: 2008,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -1267,8 +1261,8 @@ const publicaciones = [
     {
         titulo: "EL AGUA, ¿OPORTUNIDAD O PROBLEMA?",
         fecha: 2008,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -1279,8 +1273,8 @@ const publicaciones = [
     }, {
         titulo: "REFLEXIONES SOBRE EL DERECHO AL AGUA Y SU APLICACIÓN",
         fecha: 2008,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -1291,8 +1285,8 @@ const publicaciones = [
     }, {
         titulo: "LA CONFERENCIA DE BALI Ó LA ESTRATEGIA DEL AVESTRUZ",
         fecha: 2008,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -1303,8 +1297,8 @@ const publicaciones = [
     }, {
         titulo: "RIO MAS 20 Ó RIO MENOS 20",
         fecha: 2009,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -1315,8 +1309,8 @@ const publicaciones = [
     }, {
         titulo: "AGUA Y DESARROLLO",
         fecha: 2009,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -1327,8 +1321,8 @@ const publicaciones = [
     }, {
         titulo: "BASES PARA UN MANIFIESTO AMBIENTAL",
         fecha: 2011,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: true,
@@ -1339,8 +1333,8 @@ const publicaciones = [
     }, {
         titulo: "DE LA VORAGINE A LA TIERRA DE PROMISIÓN",
         fecha: 2011,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -1351,8 +1345,8 @@ const publicaciones = [
     }, {
         titulo: "EL TRILEMA MINERO",
         fecha: 2011,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -1363,8 +1357,8 @@ const publicaciones = [
     }, {
         titulo: "LA MAREA INVERNAL",
         fecha: 2011,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
@@ -1375,8 +1369,8 @@ const publicaciones = [
     }, {
         titulo: "REFLEXIONES SOBRE LA SOSTENIBILIDAD",
         fecha: 2013,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -1387,8 +1381,8 @@ const publicaciones = [
     }, {
         titulo: "ZAPATERO, A TUS ZAPATOS",
         fecha: 2014,
-        escala_regional: false,
-        escala_local: false,
+        escalas_regionales: false,
+        escalas_locales: false,
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
@@ -1399,8 +1393,8 @@ const publicaciones = [
     }, {
         titulo: "LA REGIÓN DE LA QUE DEPENDE EL RÍO BOGOTÁ",
         fecha: 2015,
-        escala_regional: true,
-        escala_local: false,
+        escalas_regionales: true,
+        escalas_locales: false,
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,

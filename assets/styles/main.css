@@ -13,3 +13,8 @@
 *{
     font-family: var(--primary-font);
 }
+
+#book-2022 div img, #bookt-2022 div img {
+    width: 80%;
+    height: auto;
+}

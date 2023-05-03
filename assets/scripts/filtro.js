@@ -58,7 +58,63 @@ function renderAños() {
     })
 
     let p = document.querySelectorAll('#filter_año')
+
+
     p[0].addEventListener("click", (e) => {
+        eliminarFiltro()
+        temporal = []
+        cap_temporal = []
+        let template = template_elemento.content.cloneNode(true);
+        let year = template.querySelector("span")
+        let div_books = template.querySelector(".categorie_cars")
+        div_books.setAttribute("id", `book-${2022}`)
+        year.innerHTML = 2022
+        books_div.appendChild(template)
+
+
+        libros.forEach((item) => {
+            if (item.fecha === 2022) {
+                let template_c = template_content.content.cloneNode(true)
+                let div = document.getElementById(`book-${item.fecha}`)
+                let image = template_c.querySelector("img")
+                let a = template_c.querySelector("a")
+                let p = template_c.querySelector("p")
+                image.setAttribute('src', item.url_image)
+                a.setAttribute('href', item.url)
+                p.innerHTML = item.titulo
+                div.appendChild(template_c)
+            }
+
+        })
+
+
+
+        let templatec = template_elemento.content.cloneNode(true);
+        let div_booksc = templatec.querySelector(".categorie_cars")
+        let yearc = templatec.querySelector("span")
+        div_booksc.setAttribute("id", `cap-${2022}`)
+        yearc.innerHTML = 2022
+        caps_div.appendChild(templatec)
+
+
+        capitulos.forEach((item) => {
+            if (item.fecha === 2022) {
+                let template_c = template_content.content.cloneNode(true)
+                let div = document.getElementById(`cap-${item.fecha}`)
+                let image = template_c.querySelector("img")
+                let a = template_c.querySelector("a")
+                let p = template_c.querySelector("p")
+                image.setAttribute('src', item.url_image)
+                a.setAttribute('href', item.url)
+                p.innerHTML = item.titulo
+                div.appendChild(template_c)
+            }
+
+        })
+    })
+
+    
+    p[1].addEventListener("click", (e) => {
         eliminarFiltro()
         temporal = []
         cap_temporal = []
@@ -110,7 +166,7 @@ function renderAños() {
 
         })
     })
-    p[1].addEventListener("click", (e) => {
+    p[2].addEventListener("click", (e) => {
         eliminarFiltro()
 
 
@@ -142,7 +198,7 @@ function renderAños() {
         })
 
     })
-    p[2].addEventListener("click", (e) => {
+    p[3].addEventListener("click", (e) => {
         eliminarFiltro()
 
         let template = template_elemento.content.cloneNode(true);
@@ -172,7 +228,7 @@ function renderAños() {
 
 
     })
-    p[3].addEventListener("click", (e) => {
+    p[4].addEventListener("click", (e) => {
         eliminarFiltro()
 
 
@@ -200,7 +256,7 @@ function renderAños() {
 
         })
     })
-    p[4].addEventListener("click", (e) => {
+    p[5].addEventListener("click", (e) => {
         eliminarFiltro()
 
         let template = template_elemento.content.cloneNode(true);
@@ -226,7 +282,7 @@ function renderAños() {
         })
 
     })
-    p[5].addEventListener("click", (e) => {
+    p[6].addEventListener("click", (e) => {
         eliminarFiltro()
         temporal = []
         cap_temporal = []
@@ -255,7 +311,7 @@ function renderAños() {
 
     })
 
-    p[6].addEventListener("click", (e) => {
+    p[7].addEventListener("click", (e) => {
         eliminarFiltro()
 
         let template = template_elemento.content.cloneNode(true);
@@ -308,7 +364,7 @@ function renderAños() {
 
 
     })
-    p[7].addEventListener("click", (e) => {
+    p[8].addEventListener("click", (e) => {
         eliminarFiltro()
         temporal = []
         cap_temporal = []
