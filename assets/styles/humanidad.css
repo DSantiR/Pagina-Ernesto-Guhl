@@ -73,7 +73,7 @@
     width: 4rem;
     height:4rem;
     position: absolute;
-    right: -10%;
+    right: 0;
     top: 0;
     z-index:200;
 
@@ -81,6 +81,7 @@
 
 .humanidad_cart_p{
     margin-bottom: 0;
+    padding-right: 100px;
 }
 .humanidad_cart_hr{
     width: 15%;

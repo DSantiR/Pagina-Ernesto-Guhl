@@ -19,7 +19,7 @@ let render_años = false
 
 
 let libros = []
-let  capitulos = []
+let capitulos = []
 let años_libros = []
 let años_capitulos = []
 let temporal = []
@@ -38,7 +38,7 @@ function main() {
 
 function renderAños() {
     let concat_años = []
-    if(render_años === false ){
+    if (render_años === false) {
         concat_años = [...años_libros, ...años_capitulos]
         renderAños = true
     }
@@ -78,7 +78,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -103,7 +104,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -130,7 +132,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -155,7 +158,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -186,7 +190,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -211,7 +216,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -239,7 +245,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -264,7 +271,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -294,7 +302,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -319,7 +328,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -349,7 +359,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -374,7 +385,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -399,7 +411,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -422,7 +435,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -449,7 +463,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -472,7 +487,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -499,7 +515,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -522,7 +539,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -550,7 +568,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -573,7 +592,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -605,7 +625,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -627,7 +648,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -657,7 +679,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -679,7 +702,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -709,7 +733,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -731,7 +756,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -761,7 +787,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -783,7 +810,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -813,7 +841,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -835,7 +864,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -865,7 +895,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -887,7 +918,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -917,7 +949,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -939,7 +972,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -958,8 +992,6 @@ function renderAños() {
         year.innerHTML = 1998
         books_div.appendChild(template)
 
-
-
         libros.forEach((item) => {
             if (item.fecha === 1998) {
                 let template_c = template_content.content.cloneNode(true)
@@ -969,7 +1001,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -991,7 +1024,8 @@ function renderAños() {
                 let p = template_c.querySelector("p")
                 image.setAttribute('src', item.url_image)
                 a.setAttribute('href', item.url)
-                p.innerHTML = item.titulo
+                let libro_minuscula = item.titulo.toLowerCase()
+                p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
                 div.appendChild(template_c)
             }
 
@@ -1063,7 +1097,8 @@ function mostrar() {
         let p = template_c.querySelector("p")
         image.setAttribute('src', item.url_image)
         a.setAttribute('href', item.url)
-        p.innerHTML = item.titulo
+        let libro_minuscula = item.titulo.toLowerCase()
+        p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
         div.appendChild(template_c)
     })
 
@@ -1085,7 +1120,8 @@ function mostrar() {
         let p = template_c.querySelector("p")
         image.setAttribute('src', item.url_image)
         a.setAttribute('href', item.url)
-        p.innerHTML = item.titulo
+        let libro_minuscula = item.titulo.toLowerCase()
+        p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
         div.appendChild(template_c)
     })
 
@@ -1236,7 +1272,8 @@ function renderFiltro() {
         let p = template_c.querySelector("p")
         image.setAttribute('src', item.url_image)
         a.setAttribute('href', item.url)
-        p.innerHTML = item.titulo
+        let libro_minuscula = item.titulo.toLowerCase()
+        p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
         div.appendChild(template_c)
     })
 
@@ -1258,7 +1295,8 @@ function renderFiltro() {
         let p = template_c.querySelector("p")
         image.setAttribute('src', item.url_image)
         a.setAttribute('href', item.url)
-        p.innerHTML = item.titulo
+        let libro_minuscula = item.titulo.toLowerCase()
+        p.innerHTML = libro_minuscula[0].toUpperCase() + libro_minuscula.slice(1)
         div.appendChild(template_c)
     })
 
