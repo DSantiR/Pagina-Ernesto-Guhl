@@ -1,6 +1,9 @@
 @import url("./main.css");
 
-
+.btn-select{
+    background-color: var(--four-color) !important;
+    color: white !important;
+}
 
 #project{
     width: 100%;

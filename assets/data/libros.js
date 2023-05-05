@@ -5,11 +5,11 @@ const Libros = [
         url_image: "../assets/images/Antropoceno.jpg",
         url: "",
         tipo: 1,
-        escalas_regionales: true,
-        escalas_locales: true,
-        investigacion_ambiental: true,
-        manejo_de_agua: true,
-        tecnologias_limpias: true
+        escalas_regionales: false,
+        escalas_locales: false,
+        investigacion_ambiental: false,
+        manejo_de_agua: false,
+        tecnologias_limpias: false
     },
     {
         titulo: "NUESTRA AGUA ¿DE DONDE VIENE Y PARA DONDE VA?",

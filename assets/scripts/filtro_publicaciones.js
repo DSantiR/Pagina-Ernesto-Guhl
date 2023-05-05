@@ -1129,6 +1129,11 @@ function mostrar() {
 }
 
 function filtrar(i) {
+    let boton_esc_Reg = document.getElementById("books_escala-regional")
+    let boton_esc_Loc = document.getElementById("books_escala-local")
+    let boton_inv_Amb = document.getElementById("books_investigacion-ambiental")
+    let boton_man_Agua = document.getElementById("books_manejo-agua")
+    let boton_man_Tecn = document.getElementById("books_tec-limpias")
     eliminarFiltro()
     temporal = []
     cap_temporal = []
@@ -1136,7 +1141,11 @@ function filtrar(i) {
     años_capitulost = []
 
     if (i === 1) {
-
+        boton_esc_Reg.classList.add("btn-select")
+        boton_esc_Loc.classList.remove("btn-select")
+        boton_inv_Amb.classList.remove("btn-select")
+        boton_man_Agua.classList.remove("btn-select")
+        boton_man_Tecn.classList.remove("btn-select")
         libros.forEach((item) => {
             if (item.escalas_regionales === true) {
                 temporal.push(item)
@@ -1152,6 +1161,11 @@ function filtrar(i) {
             }
         })
     } else if (i === 2) {
+        boton_esc_Reg.classList.remove("btn-select")
+        boton_esc_Loc.classList.add("btn-select")
+        boton_inv_Amb.classList.remove("btn-select")
+        boton_man_Agua.classList.remove("btn-select")
+        boton_man_Tecn.classList.remove("btn-select")
         libros.forEach((item) => {
             if (item.escalas_locales === true) {
                 temporal.push(item)
@@ -1168,6 +1182,11 @@ function filtrar(i) {
         })
 
     } else if (i === 3) {
+        boton_esc_Reg.classList.remove("btn-select")
+        boton_esc_Loc.classList.remove("btn-select")
+        boton_inv_Amb.classList.add("btn-select")
+        boton_man_Agua.classList.remove("btn-select")
+        boton_man_Tecn.classList.remove("btn-select")
         libros.forEach((item) => {
             if (item.investigacion_ambiental === true) {
                 años_temporal.push(item.fecha)
@@ -1185,6 +1204,11 @@ function filtrar(i) {
 
     }
     else if (i === 4) {
+        boton_esc_Reg.classList.remove("btn-select")
+        boton_esc_Loc.classList.remove("btn-select")
+        boton_inv_Amb.classList.remove("btn-select")
+        boton_man_Agua.classList.add("btn-select")
+        boton_man_Tecn.classList.remove("btn-select")
         libros.forEach((item) => {
             if (item.manejo_de_agua === true) {
                 temporal.push(item)
@@ -1202,6 +1226,12 @@ function filtrar(i) {
 
     }
     else if (i === 5) {
+        boton_esc_Reg.classList.remove("btn-select")
+        boton_esc_Loc.classList.remove("btn-select")
+        boton_inv_Amb.classList.remove("btn-select")
+        boton_man_Agua.classList.remove("btn-select")
+        boton_man_Tecn.classList.add("btn-select")
+
         libros.forEach((item) => {
             if (item.tecnologias_limpias === true) {
                 temporal.push(item)
@@ -1238,7 +1268,11 @@ function eliminarFiltro() {
         caps_div.removeChild(caps_div.firstChild);
     }
 
-
+    let boton_esc_Reg = document.getElementById("books_escala-regional").classList.remove("btn-select")
+    let boton_esc_Loc = document.getElementById("books_escala-local").classList.remove("btn-select")
+    let boton_inv_Amb = document.getElementById("books_investigacion-ambiental").classList.remove("btn-select")
+    let boton_man_Agua = document.getElementById("books_manejo-agua").classList.remove("btn-select")
+    let boton_man_Tecn = document.getElementById("books_tec-limpias").classList.remove("btn-select")
 }
 
 function unificarAños() {
