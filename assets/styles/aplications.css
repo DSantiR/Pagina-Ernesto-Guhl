@@ -23,8 +23,8 @@
 .car{
     /* background-color:rgb(96, 118, 46,0.9); */
     background-color: rgb(167, 180, 97,0.7);
-    width: 15rem;
-    height: 22rem;
+    width: 25%;
+    height: 50vh;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     padding-left: 0.7rem;
@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
     background-color:white;
     font-family: var(--primary-font);
     box-shadow: 2px 2px 30px   black;

@@ -19,7 +19,7 @@ grid-column: 1/5;
 }
 
 .text-left{
-    width: 25rem;
+    width: 30rem;
     height: auto;
     margin-left: 4rem;
     font-size: 1.2em;
@@ -40,7 +40,7 @@ grid-column: 1/5;
 
 .text-right{
     position: absolute;
-    width: 20rem;
+    width: 30rem;
     height: 14rem;
     top:48vh;
     right: 6rem;
@@ -51,7 +51,7 @@ grid-column: 1/5;
 }
 
 .text-right h1{
-    font-size: 3em;
+    font-size: 3.3em;
     margin: 0;
     color: var(--primary-color);
     font-family: var(--bold-font);
@@ -59,12 +59,12 @@ grid-column: 1/5;
 
 .text-right span{
     display: block;
-    font-size: 3em;
+    font-size: 3.3em;
     color: var(--secondary-color);
     font-family: var(--bold-font);
 }
 .text-right .slogan{
-    font-size:1.2em;
+    font-size:1.5em;
     color: var(--primary-color);
 }
 .text-right a{
