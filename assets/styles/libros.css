@@ -136,6 +136,15 @@
     transition: 600ms;
 }
 
+.categorie_select{
+    background-color: var(--four-color);
+}
+
+.categorie_select_color{
+    color: white;
+}
+
+
 
 
 /* cartas de los project */
