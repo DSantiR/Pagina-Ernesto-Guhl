@@ -68,6 +68,7 @@
 .car_info_p{
     /* se quitan estilos por defecto */
     margin: 0;
+    font-size: 1.2em;
 }
 
 .car_info_button{

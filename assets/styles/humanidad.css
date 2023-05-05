@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     color: white;
   
 
@@ -44,7 +44,7 @@
 
 .humanidad_cart:nth-child(1) {
     /* background-color: aqua; */
-    width: 80%;
+    width: 87%;
     position: relative;
     padding-left: 3rem;
     font-family: var(--primary-font);
@@ -53,7 +53,7 @@
 
 .humanidad_cart:nth-child(2) {
     /* background-color: violet; */
-    width: 72%;
+    width: 80%;
     position: relative;
     padding-left: 3rem;
     font-family: var(--primary-font);
@@ -62,7 +62,7 @@
 
 .humanidad_cart:nth-child(3) {
     /* background-color: red; */
-    width: 65%;
+    width: 73%;
     position: relative;
     padding-left: 3rem;
     font-family: var(--primary-font);
@@ -82,6 +82,7 @@
 .humanidad_cart_p{
     margin-bottom: 0;
     padding-right: 100px;
+    font-size: 1.2em;
 }
 .humanidad_cart_hr{
     width: 15%;
