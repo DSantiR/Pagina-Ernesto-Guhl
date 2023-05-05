@@ -13,6 +13,7 @@ Array.from(categories).forEach((categorie) => {
             filter_three[0].classList.remove("three")
             filter_four[0].classList.remove("four")
             filter_one[0].classList.toggle("one")
+          
 
         } else if (categorie.id == "Formulación de politicas") {
             filter_one[0].classList.remove("one")

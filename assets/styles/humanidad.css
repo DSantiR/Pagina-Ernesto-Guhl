@@ -16,75 +16,86 @@
 }
 
 .humanidad_info_div {
-    width: 60%;
+    width: 68%;
     height: 80vh;
-    background-color: var(--primary-color);
+    background-image: url("../images/verde_humanidad.png");
+    background-color: var(--primary-font);
+    background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
+    gap: 3.3rem;
     color: white;
-  
-
-
+    z-index: 10;
+    overflow: hidden;
+    
 }
 
 .humanidad_info_img {
-    width: 60%;
+    width: 55%;
     height: 80vh;
     background-image: url("../images/fondo_Humanidad.jpg");
     background-size: cover;
-    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+    background-position: center;
+    background-repeat:no-repeat;
+    /* clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%); */
     position: absolute;
     right: 0;
     z-index: 0;
-    
+    overflow: hidden;
+
 }
 
 .humanidad_cart:nth-child(1) {
     /* background-color: aqua; */
-    width: 87%;
-    position: relative;
-    padding-left: 3rem;
-    font-family: var(--primary-font);
- 
-}
-
-.humanidad_cart:nth-child(2) {
-    /* background-color: violet; */
     width: 80%;
     position: relative;
     padding-left: 3rem;
     font-family: var(--primary-font);
+   padding-top: 6rem;
+
+
+}
+
+.humanidad_cart:nth-child(2) {
+    /* background-color: violet; */
+    width: 73%;
+    position: relative;
+    padding-left: 3rem;
+    font-family: var(--primary-font);
+  
 
 }
 
 .humanidad_cart:nth-child(3) {
     /* background-color: red; */
-    width: 73%;
+    width: 68%;
     position: relative;
     padding-left: 3rem;
     font-family: var(--primary-font);
-    
+ 
+
 }
 
 .humanidad_cart_img {
     width: 4rem;
-    height:4rem;
+    height: 4rem;
     position: absolute;
     right: 0;
     top: 0;
-    z-index:200;
+    z-index: 200;
 
 }
 
-.humanidad_cart_p{
+.humanidad_cart_p {
     margin-bottom: 0;
-    padding-right: 100px;
+    padding-right:5px;
     font-size: 1.2em;
 }
-.humanidad_cart_hr{
+
+.humanidad_cart_hr {
     width: 15%;
     height: 0.09rem;
     background-color: white;
