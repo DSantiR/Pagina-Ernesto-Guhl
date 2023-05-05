@@ -1,6 +1,6 @@
 const Libros = [
     {
-        titulo: "ANTROPOCENO: LA HUELLA HUMANA",
+        titulo: "ANTROPOCENO: LA HUELLA HUMANA.",
         fecha: 2022,
         url_image: "../assets/images/Antropoceno.jpg",
         url: "",
