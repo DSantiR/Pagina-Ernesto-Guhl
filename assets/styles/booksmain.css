@@ -74,7 +74,7 @@
 }
 
 .cards-div_card .card-dowm {
-    /* padding: 5px 20px; */
+    padding: 0px 5px;
     height: 40%;
     font-size: 1em;
     display: flex;
@@ -106,6 +106,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 1rem;
-   
+    text-decoration: none;
+
     }   
