@@ -20,9 +20,9 @@ grid-column: 1/5;
 
 .text-left{
     width: 25rem;
-    height: 10rem;
+    height: auto;
     margin-left: 4rem;
-    font-size: 1em;
+    font-size: 1.2em;
     position: absolute;
     top:58vh;
     overflow: hidden;
@@ -30,6 +30,7 @@ grid-column: 1/5;
 .text-left p {
     margin-top: 1rem;
     color: var(--primary-color);
+
 }
 
 .text-left hr{
