@@ -59,9 +59,19 @@ function renderAños() {
 
     let p = document.querySelectorAll('#filter_año')
 
+    
+
+    
 
     p[0].addEventListener("click", (e) => {
         eliminarFiltro()
+
+        p[0].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 0){
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -118,6 +128,14 @@ function renderAños() {
 
     p[1].addEventListener("click", (e) => {
         eliminarFiltro()
+
+        p[1].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 1){
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -173,6 +191,13 @@ function renderAños() {
     p[2].addEventListener("click", (e) => {
         eliminarFiltro()
 
+        p[2].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 2){
+                p[index].classList.remove("btn-select")
+            }
+        }
+        
 
 
         let templatec = template_elemento.content.cloneNode(true);
@@ -206,6 +231,14 @@ function renderAños() {
     p[3].addEventListener("click", (e) => {
         eliminarFiltro()
 
+        p[3].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 3){
+                p[index].classList.remove("btn-select")
+            }
+        }
+
+
         let template = template_elemento.content.cloneNode(true);
         let year = template.querySelector("span")
         let div_books = template.querySelector(".categorie_cars")
@@ -235,7 +268,16 @@ function renderAños() {
 
     })
     p[4].addEventListener("click", (e) => {
+
         eliminarFiltro()
+
+        p[4].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 4){
+                p[index].classList.remove("btn-select")
+            }
+        }
+
 
 
 
@@ -266,6 +308,14 @@ function renderAños() {
     p[5].addEventListener("click", (e) => {
         eliminarFiltro()
 
+        p[5].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 5){
+                p[index].classList.remove("btn-select")
+            }
+        }
+
+
         let template = template_elemento.content.cloneNode(true);
         let year = template.querySelector("span")
         let div_books = template.querySelector(".categorie_cars")
@@ -292,6 +342,12 @@ function renderAños() {
     })
     p[6].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[6].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 6){
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -322,6 +378,15 @@ function renderAños() {
 
     p[7].addEventListener("click", (e) => {
         eliminarFiltro()
+
+
+        p[7].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 7){
+                p[index].classList.remove("btn-select")
+            }
+        }
+
 
         let template = template_elemento.content.cloneNode(true);
         let year = template.querySelector("span")
@@ -377,6 +442,13 @@ function renderAños() {
     })
     p[8].addEventListener("click", (e) => {
         eliminarFiltro()
+
+        p[8].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if(index !== 8){
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -650,6 +722,14 @@ function eliminarFiltro() {
     let boton_inv_Amb = document.getElementById("books_investigacion-ambiental").classList.remove("btn-select")
     let boton_man_Agua = document.getElementById("books_manejo-agua").classList.remove("btn-select")
     let boton_man_Tecn = document.getElementById("books_tec-limpias").classList.remove("btn-select")
+    let p = document.querySelectorAll('#filter_año')
+    for (let index = 0; index < p.length; index++) { 
+            p[index].classList.remove("btn-select")
+    }
+    
+
+ console.log(fecha_div.hasChildNodes())
+    
 }
 
 function unificarAños() {
@@ -713,15 +793,7 @@ function renderFiltro() {
 
 }
 
-function filtrar_año(año) {
-    Libros.forEach((item) => {
-        if (item.fecha === año) {
-            console.log(item);
-        }
 
-
-    })
-}
 
 
 

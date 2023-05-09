@@ -56,9 +56,17 @@ function renderAños() {
         fecha_div.innerHTML += cadenaHtml
     })
 
+
     let p = document.querySelectorAll('#filter_año')
     p[0].addEventListener("click", (e) => {
         eliminarFiltro()
+
+        p[0].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 0) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -113,6 +121,12 @@ function renderAños() {
     })
     p[1].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[1].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 1) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -168,9 +182,12 @@ function renderAños() {
     p[2].addEventListener("click", (e) => {
         eliminarFiltro()
 
-
-
-        eliminarFiltro()
+        p[2].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 2) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -226,6 +243,13 @@ function renderAños() {
     })
     p[3].addEventListener("click", (e) => {
         eliminarFiltro()
+
+        p[3].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 3) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -283,6 +307,14 @@ function renderAños() {
     })
     p[4].addEventListener("click", (e) => {
         eliminarFiltro()
+
+        p[4].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 4) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -340,6 +372,12 @@ function renderAños() {
     })
     p[5].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[5].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 5) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -394,6 +432,12 @@ function renderAños() {
     })
     p[6].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[6].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 6) {
+                p[index].classList.remove("btn-select")
+            }
+        }
 
         let template = template_elemento.content.cloneNode(true);
         let year = template.querySelector("span")
@@ -445,6 +489,12 @@ function renderAños() {
     })
     p[7].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[7].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 7) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -497,6 +547,12 @@ function renderAños() {
     })
     p[8].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[8].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 8) {
+                p[index].classList.remove("btn-select")
+            }
+        }
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -550,6 +606,12 @@ function renderAños() {
 
     p[9].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[9].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 9) {
+                p[index].classList.remove("btn-select")
+            }
+        }
 
         let template = template_elemento.content.cloneNode(true);
         let year = template.querySelector("span")
@@ -605,6 +667,13 @@ function renderAños() {
     })
     p[10].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[10].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 10) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -659,6 +728,13 @@ function renderAños() {
     })
     p[11].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[11].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 11) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -713,6 +789,13 @@ function renderAños() {
     })
     p[12].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[12].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 12) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -767,6 +850,13 @@ function renderAños() {
     })
     p[13].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[13].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 13) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -821,6 +911,13 @@ function renderAños() {
     })
     p[14].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[14].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 14) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -875,6 +972,13 @@ function renderAños() {
     })
     p[15].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[15].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 15) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -929,6 +1033,13 @@ function renderAños() {
     })
     p[16].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[16].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 16) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -983,6 +1094,13 @@ function renderAños() {
     })
     p[17].addEventListener("click", (e) => {
         eliminarFiltro()
+        p[17].classList.add("btn-select")
+        for (let index = 0; index < p.length; index++) {
+            if (index !== 17) {
+                p[index].classList.remove("btn-select")
+            }
+        }
+
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
@@ -1273,6 +1391,11 @@ function eliminarFiltro() {
     let boton_inv_Amb = document.getElementById("books_investigacion-ambiental").classList.remove("btn-select")
     let boton_man_Agua = document.getElementById("books_manejo-agua").classList.remove("btn-select")
     let boton_man_Tecn = document.getElementById("books_tec-limpias").classList.remove("btn-select")
+    let p = document.querySelectorAll('#filter_año')
+    for (let index = 0; index < p.length; index++) {
+        p[index].classList.remove("btn-select")
+
+    }
 }
 
 function unificarAños() {
@@ -1336,15 +1459,7 @@ function renderFiltro() {
 
 }
 
-function filtrar_año(año) {
-    Libros.forEach((item) => {
-        if (item.fecha === año) {
-            console.log(item);
-        }
 
-
-    })
-}
 
 
 
