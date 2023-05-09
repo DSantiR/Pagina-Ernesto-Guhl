@@ -728,7 +728,6 @@ function eliminarFiltro() {
     }
     
 
- console.log(fecha_div.hasChildNodes())
     
 }
 
