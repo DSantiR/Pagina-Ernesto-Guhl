@@ -59,16 +59,16 @@ function renderAños() {
 
     let p = document.querySelectorAll('#filter_año')
 
-    
 
-    
+
+
 
     p[0].addEventListener("click", (e) => {
         eliminarFiltro()
 
         p[0].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 0){
+            if (index !== 0) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -131,7 +131,7 @@ function renderAños() {
 
         p[1].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 1){
+            if (index !== 1) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -193,11 +193,11 @@ function renderAños() {
 
         p[2].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 2){
+            if (index !== 2) {
                 p[index].classList.remove("btn-select")
             }
         }
-        
+
 
 
         let templatec = template_elemento.content.cloneNode(true);
@@ -233,7 +233,7 @@ function renderAños() {
 
         p[3].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 3){
+            if (index !== 3) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -273,7 +273,7 @@ function renderAños() {
 
         p[4].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 4){
+            if (index !== 4) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -310,7 +310,7 @@ function renderAños() {
 
         p[5].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 5){
+            if (index !== 5) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -344,7 +344,7 @@ function renderAños() {
         eliminarFiltro()
         p[6].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 6){
+            if (index !== 6) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -382,7 +382,7 @@ function renderAños() {
 
         p[7].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 7){
+            if (index !== 7) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -445,7 +445,7 @@ function renderAños() {
 
         p[8].classList.add("btn-select")
         for (let index = 0; index < p.length; index++) {
-            if(index !== 8){
+            if (index !== 8) {
                 p[index].classList.remove("btn-select")
             }
         }
@@ -723,12 +723,17 @@ function eliminarFiltro() {
     let boton_man_Agua = document.getElementById("books_manejo-agua").classList.remove("btn-select")
     let boton_man_Tecn = document.getElementById("books_tec-limpias").classList.remove("btn-select")
     let p = document.querySelectorAll('#filter_año')
-    for (let index = 0; index < p.length; index++) { 
-            p[index].classList.remove("btn-select")
+    for (let index = 0; index < p.length; index++) {
+        p[index].classList.remove("btn-select")
     }
-    
 
-    
+    // let filters = document.querySelector(".filters")
+    // const filter = filters.children;
+    // for (let i = 0; i < filter.length; i++) {
+    //   if (filter[i].style.display !== 'none') {
+    //    filter[i].style.display = 'none'
+    //   }
+    // }
 }
 
 function unificarAños() {

@@ -1121,30 +1121,6 @@ const publicaciones = [
 
     {
 
-        titulo: "EL MEDIO AMBIENTE, DERECHO O NEGOCIO",
-
-        fecha: 2006,
-
-        escalas_regionales: false,
-
-        escalas_locales: false,
-
-        investigacion_ambiental: false,
-
-        manejo_de_agua: false,
-
-        tecnologias_limpias: false,
-
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=917fc5a91499442eb072c88a9139b629",
-
-        url_image: "../assets/images/publicaciones_img/ago_downloaded (21).png",
-
-        tipo: 2,
-
-    },
-
-    {
-
         titulo: "LA HUELLA HUMANA Y LA SOSTENIBILIDAD",
 
         fecha: 2006,
