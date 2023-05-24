@@ -29,30 +29,21 @@
     color: white;
     z-index: 10;
     overflow: hidden;
-    background-color: aqua;
+    
     
 }
 .verde_fondo{
     z-index: 92;
     position: absolute;
     height: 80vh;
-    width: 70%;
+    width: 100%;
 }
-.img_humanidad{
-    width: 60%;
-    height: 80vh;
-    position: absolute;
-    right: 0;
-    z-index:90 ;
-}
-
-
 
 .humanidad_cart:nth-child(2) {
     /* background-color: aqua; */
-    width: 58%;
+    width: 82%;
     position: relative;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-family: var(--primary-font);
     padding-top: 4rem;
     z-index: 100;
@@ -62,18 +53,18 @@
 
 .humanidad_cart:nth-child(3) {
     /* background-color: violet; */
-    width: 53%;
+    width: 75%;
     position: relative;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-family: var(--primary-font);
     z-index: 100;
 }
 
 .humanidad_cart:nth-child(4) {
     /* background-color: red; */
-    width: 48%;
+    width: 68%;
     position: relative;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-family: var(--primary-font);
     z-index: 100;
 
@@ -82,7 +73,7 @@
 .humanidad_cart_p {
     margin-bottom: 0;
     padding-right:5px;
-    font-size: 1em;
+    font-size: 1.1em;
     z-index: 100;
 }
 
