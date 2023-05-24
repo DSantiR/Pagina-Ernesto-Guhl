@@ -29,6 +29,7 @@
     color: white;
     z-index: 10;
     overflow: hidden;
+    background-color: gray;
     
     
 }
@@ -37,6 +38,7 @@
     position: absolute;
     height: 80vh;
     width: 100%;
+   
 }
 
 .humanidad_cart:nth-child(2) {

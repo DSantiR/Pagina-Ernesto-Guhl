@@ -1,16 +1,21 @@
 .carousel {
     position: absolute;
-    width:60%;
+    width:40%;
     height: 80vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     right: 0;
-
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
   }
   
   .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
     justify-content: center;
 
   }
@@ -39,7 +44,7 @@
   }
   
   .carousel-prev {
-    left: 200px;
+    left: -150px;
   }
   
   .carousel-next {
