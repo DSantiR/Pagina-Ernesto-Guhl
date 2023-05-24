@@ -28,13 +28,13 @@ grid-column: 1/5;
     overflow: hidden;
 }
 .text-left p {
-    margin-top: 1rem;
+    margin-top: 1.6rem;
     color: var(--primary-color);
-
 }
 
 .text-left hr{
     border: 2px solid var(--primary-color);
+        margin-top: 2rem;
 }
 
 

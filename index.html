@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/carrousel.css">
     <link rel="stylesheet" href="./assets/styles/header.css">
     <link rel="stylesheet" href="./assets/styles/responsive/headerRes.css">
     <link rel="stylesheet" href="./assets/styles/projects.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="./assets/styles/aplications.css">
     <link rel="stylesheet" href="./assets/styles/humanidad.css ">
     <title>Memorias Ernesto Guhl</title>
+
 </head>
 
 <body>
@@ -32,8 +34,10 @@
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="#books-section">Libros</a></li>
                 <li class="nav_ul_li"><a class="nav_ul_li_a" href="#post-section">Publicaciones</a>
                     <ul class="nav_ul_li_options">
-                        <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option" href="./paginas/publicaciones.html#articulos">Articulos</a></li>
-                        <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option" href="./paginas/publicaciones.html#informes">Informes</a></li>
+                        <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option"
+                                href="./paginas/publicaciones.html#articulos">Articulos</a></li>
+                        <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option"
+                                href="./paginas/publicaciones.html#informes">Informes</a></li>
                         <!-- <li class=" nav_ul_li_option"><a class="nav_ul_li_a_option" href="">Videos</a></li> -->
                     </ul>
                 </li>
@@ -105,7 +109,7 @@
                     gobernanza participativa y abierta, que impulsen un proceso de agregación de Territorios
                     Sostenibles, construidos desde el nivel local, que se amplíe paulatinamente hasta configurar países
                     sostenibles y culmine con la atmósfera y los océanos; bienes comunes de la humanidad.
-                    
+
                 </p>
                 <!-- <button class="antropoceno_buttom">
                     <img src="assets/icons/bxs-chevron-right.svg" alt="">
@@ -194,7 +198,8 @@
                 <img src="./assets/images/Publicaciones_01.png" alt=""><br>
                 <!-- __________________________________ -->
                 <!-- <p>LA REGIÓN DE LA QUE DEPENDE EL RIO BOGOTÁ</p> -->
-                <a class="books-cards_button books-cards_button-modifid" href="./paginas/publicaciones.html#articulos">Ver todos  &#10132;
+                <a class="books-cards_button books-cards_button-modifid"
+                    href="./paginas/publicaciones.html#articulos">Ver todos &#10132;
                     <!-- <img src="./assets/icons/bxs-chevron-right.svg" alt="" style="width:20px;height: 20px; background-color: red;"> -->
                 </a>
             </div>
@@ -211,7 +216,8 @@
                 <img src="./assets/images/Publicaciones_03.png" alt=""><br>
                 <!-- __________________ -->
                 <!-- <p>ANALISIS DE ALTERNATIVAS FACTIBLES PARA EL SANEAMIENTO DEL RIO BOGOTÁ</p> -->
-                <a class="books-cards_button books-cards_button-modifid" href="./paginas/publicaciones.html">Ver todos  &#10132;
+                <a class="books-cards_button books-cards_button-modifid" href="./paginas/publicaciones.html">Ver todos
+                    &#10132;
                     <!-- <img src="./assets/icons/bxs-chevron-right.svg" alt="" style="width:20px;height: 20px;"> -->
                 </a>
             </div>
@@ -235,20 +241,20 @@
                     <div class="car_info">
                         <hr class="car_info_hr">
                         <p class="car_info_p">Expedición Quinaxi</p>
-                        <a class="car_info_button" href="./paginas/quinaxi.html" >Ver más <img
+                        <a class="car_info_button" href="./paginas/quinaxi.html">Ver más <img
                                 src="./assets/icons/bxs-chevron-right.svg" alt=""
                                 style="width:20px;height: 20px;" /></a>
                     </div>
                 </div>
             </div>
-           
+
             <div class="car">
                 <div class="car_content">
                     <img class="car_img" src="./assets/images/App_03.png" />
                     <div class="car_info">
                         <hr class="car_info_hr">
                         <p class="car_info_p">Antropoceno</p>
-                        <a class="car_info_button" href="./paginas/antropoceno.html" >Ver más<img
+                        <a class="car_info_button" href="./paginas/antropoceno.html">Ver más<img
                                 src="./assets/icons/bxs-chevron-right.svg" alt=""
                                 style="width:20px;height: 20px;" /></a>
                     </div>
@@ -259,13 +265,24 @@
 
     </div>
     <section name="humanidad" id="humanidad">
-        <div class="baner ">
+        <div class="baner baner-humanidad">
             <a class="baner_title" href="">
                 <h3 class="baner_h3">Aporte a la humanidad</h3>
             </a>
         </div>
+
+
+
         <div class="semi-circle">
             <img src="./assets/icons/bxs-chevron-up.svg" alt="">
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-inner" id="carousel">
+
+            </div>
+            <a class="carousel-prev" href="#carousel">&lt;</a>
+            <a class="carousel-next" href="#carousel">&gt;</a>
         </div>
         <div class="humanidad_info_content">
             <div class="humanidad_info_div">
@@ -273,22 +290,19 @@
                     <p class="humanidad_cart_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ea cum
                         quisquam deleniti beatae, expedita eveniet alias? Quo, odio? Fuga repellat eos eveniet?
                         Consectetur excepturi nobis deleniti. Optio, quos dolores!</p>
-                    <!-- <img class="humanidad_cart_img" src="./assets/images/Aporte a la humanidad_01.png" alt=""> -->
-                    <!-- <hr class="humanidad_cart_hr"> -->
+
                 </div>
                 <div class="humanidad_cart">
                     <p class="humanidad_cart_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ea cum
                         quisquam deleniti beatae, expedita eveniet alias? Quo, odio? Fuga repellat eos eveniet?
                         Consectetur excepturi nobis deleniti. Optio, quos dolores!</p>
-                    <!-- <img class="humanidad_cart_img" src="./assets/images/Aporte a la humanidad_02.png" alt=""> -->
-                    <!-- <hr class="humanidad_cart_hr"> -->
+
                 </div>
                 <div class="humanidad_cart">
                     <p class="humanidad_cart_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ea cum
                         quisquam deleniti beatae, expedita eveniet alias? Quo, odio? Fuga repellat eos eveniet?
                         Consectetur excepturi nobis deleniti. Optio, quos dolores!</p>
-                    <!-- <img class="humanidad_cart_img" src="./assets/images/Aporte a la humanidad_03.png" alt=""> -->
-                    <!-- <hr class="humanidad_cart_hr"> -->
+
                 </div>
             </div>
             <div class="humanidad_info_img">
@@ -297,6 +311,9 @@
         </div>
 
     </section>
+
+
+    <script src="./assets/scripts/carrousel.js"></script>
 </body>
 
 </html>
