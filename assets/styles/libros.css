@@ -1,11 +1,11 @@
 @import url("./main.css");
 
-.btn-select{
+.btn-select {
     background-color: var(--four-color) !important;
     color: white !important;
 }
 
-#project{
+#project {
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -26,23 +26,23 @@
 
 /*navegacion de los proyect */
 
-#categories{
+#categories {
     width: 100%;
-    height: 6rem; 
+    height: 6rem;
     margin-top: 3rem;
 
 }
 
-.categories_nav{
+.categories_nav {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    
+
+
 }
- 
+
 
 
 .categories_ul {
@@ -54,7 +54,7 @@
     display: grid;
     grid-template-columns: repeat(5, calc(100%/5));
     box-shadow: 0px 0px 10px 3px var(--thirdr-color);
-   
+
 
 }
 
@@ -68,7 +68,7 @@
     align-items: center;
     position: relative;
     cursor: pointer;
-    
+
 }
 
 .categories_li:hover {
@@ -94,19 +94,19 @@
 
 }
 
-.categories_li_a{
+.categories_li_a {
     color: var(--primary-color);
     text-decoration: none;
     font-size: var(--primary-font);
     font-weight: bold;
-    
 
-    
+
+
 }
 
 /* categorie optiones  */
 
-.categorie_li_options{
+.categorie_li_options {
     background-color: var(--primary-color);
     width: 100%;
     position: absolute;
@@ -121,26 +121,27 @@
     padding-bottom: 1rem;
 
 }
-.categorie_li_option{
+
+.categorie_li_option {
     width: 50%;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    
+
 }
 
-.categories_li:hover >.categorie_li_options{
+.categories_li:hover>.categorie_li_options {
     display: flex;
     transition: 600ms;
 }
 
-.categorie_select{
+.categorie_select {
     background-color: var(--four-color);
 }
 
-.categorie_select_color{
+.categorie_select_color {
     color: white;
 }
 
@@ -156,7 +157,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-   
+
 }
 
 .categorie_title {
@@ -171,7 +172,7 @@
     color: var(--primary-color);
     margin-bottom: 40px;
     border-bottom: 2px solid var(--primary-color);
- 
+
 }
 
 .categorie_year {
@@ -209,15 +210,15 @@
     margin: auto;
     /* background-color: aqua; */
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     gap: 3rem;
     padding: 20px;
     flex-wrap: wrap;
-    
+
 }
 
-.cart{
-    width: 12.3rem; ;
+.cart {
+    width: 12.3rem;
     height: auto;
     display: flex;
     margin: auto;
@@ -243,7 +244,7 @@
 .cart_img {
     background-color: var(--four-color);
     width: 100%;
-    height:8.5rem;
+    height: 8.5rem;
     border-radius: 20px 20px;
     background-size: contain;
 }
@@ -253,19 +254,19 @@
     height: auto;
     overflow: hidden;
     color: var(--four-color);
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-family:var(--primary-font) ;
+    font-family: var(--primary-font);
     font-size: small;
-    
+
 }
 
 .cart_button {
-    
+
     width: 5.5rem;
     height: 1.9rem;
-    font-family:var(--primary-font) ;
+    font-family: var(--primary-font);
     font-size: small;
     border-radius: 8px;
     background-color: transparent;
@@ -277,12 +278,12 @@
     text-decoration: none;
 }
 
-.line_fin{
+.line_fin {
     margin-top: 5rem;
     margin-bottom: 5rem;
     height: 6px;
     width: 70%;
- 
+
 }
 
 
@@ -292,7 +293,7 @@
     background-color: var(--primary-color);
     display: flex;
     position: relative;
-    
+
 }
 
 .baner_title {
@@ -306,8 +307,8 @@
     text-decoration: none;
     color: white;
     font-family: var(--primary-font);
-    
-  
+
+
 }
 
 .baner_h3 {
@@ -318,34 +319,36 @@
 
 /* estilos del filter */
 
-.filters{
+.filters {
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-    
+
 }
-.filter_one,.filter_two,.filter_three{
-     width: 100%; 
+
+.filter_one,
+.filter_two,
+.filter_three {
+    width: 100%;
     display: none;
-    justify-content: center; 
+    justify-content: center;
     gap: 4rem;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
-.filter_four{
+
+.filter_four {
     display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap : 1rem;
+
 }
 
-.filter_four p{
-    flex-basis: calc(25% - 1rem);
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem; 
-}
-.filter_tipo{
+.filter_tipo {
     color: var(--primary-color);
     margin-block-start: 0;
     margin-block-end: 0;
@@ -360,17 +363,23 @@
     cursor: pointer;
     box-shadow: 0px 0px 10px 3px var(--thirdr-color);
 }
-.one{
-    display:flex;
-}
-.two{
-    display: flex;
-}
-.three{
-    display: flex;
-}
-.four{
-    display: flex;
-}
-.add{display: flex;}
 
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
+
+.three {
+    display: flex;
+}
+
+.four {
+    display: flex;
+}
+
+.add {
+    display: flex;
+}

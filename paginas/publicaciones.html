@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="../assets/styles/libros.css">
     <link rel="stylesheet" href="../assets/styles/lastbook.css">
     <link rel="stylesheet" href="../assets/styles/booksmain.css">
+    <!-- link de stilos del cdn  para el carrousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/styles/carrousel_articulos.css">
+
     <title>Publicaciones</title>
 </head>
 
@@ -86,7 +90,6 @@
             </div>
             <div class="filter_four" id="books_tec-fecha">
             </div>
-
         </div>
         <!-- categoria 1 -->
         <div class="categorie" id="informes">
@@ -118,16 +121,36 @@
                 <a href="" class="cart_button" target="_blank"> Ver más &#10132;</a>
             </div>
         </template>
-
-
-        </div>
     </section>
 
 
+    <!-- Slider main container -->
+    <section id=carrousel_articulos>
 
+        <h4 class="categorie_title">Mas Articulos</h4> 
+
+        <div class="swiper  mySwiper">
+            
+            <div class="swiper-wrapper mySwiper_wrapper">
+                
+                
+            </div>            
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="ver_foto">
+            <img class="btn_cerrar" src="../assets/icons/bx-x-circle.svg" alt="">
+            <img class="img_general_articulo"> </img>
+        </div>
+    </section>
 
 </body>
 <script src="../assets/scripts/filtro_publicaciones.js" type="module"></script>
 <script src="../assets/scripts/filtro_sub_tipo.js"></script>
+
+<!-- script del cdn de swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" ></script>
+<script src="../assets/scripts/carrousel_articulos.js" type="module"></script>
 
 </html>

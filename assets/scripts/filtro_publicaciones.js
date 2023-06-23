@@ -67,6 +67,7 @@ function renderAños() {
                 p[index].classList.remove("btn-select")
             }
         }
+        
         temporal = []
         cap_temporal = []
         let template = template_elemento.content.cloneNode(true);
