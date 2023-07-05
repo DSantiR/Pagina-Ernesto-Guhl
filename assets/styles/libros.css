@@ -364,22 +364,39 @@
     box-shadow: 0px 0px 10px 3px var(--thirdr-color);
 }
 
-.one {
-    display: flex;
-}
-
-.two {
-    display: flex;
-}
-
-.three {
-    display: flex;
-}
-
-.four {
-    display: flex;
-}
-
 .add {
     display: flex;
+}
+
+
+/* estilos de bottom de up   y sus animaciones*/
+
+.buttom_up{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transform: scale(0) ;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 3px var(--four-color);
+    z-index: 2500;
+}
+
+.buttom_up:hover{
+    transition: all 0.5s ;
+    width: 3.3rem;
+    height: 3.3rem;
+    border: solid 2px var(--four-color);
+}
+
+.img_up{
+    width: 90%;
+    height: 90%;
 }

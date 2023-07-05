@@ -19,6 +19,7 @@ let render_años = false;
 
 let libros = []
 let capitulos = []
+let años_mas_articulos = []
 let años_libros = []
 let años_capitulos = []
 let temporal = []
@@ -35,7 +36,9 @@ function main() {
 }
 
 function renderAños() {
+
     let concat_años = []
+
     if (render_años === false) {
         concat_años = [...años_libros, ...años_capitulos]
         renderAños = true
@@ -56,7 +59,6 @@ function renderAños() {
         `
         fecha_div.innerHTML += cadenaHtml
     })
-
     let p = document.querySelectorAll('#filter_año')
 
 
@@ -707,6 +709,8 @@ function mostrarFiltro() {
     renderFiltro()
 }
 
+
+// funciona que eliman los filtros selecionados 
 function eliminarFiltro() {
     while (books_div.hasChildNodes()) {
         books_div.removeChild(books_div.firstChild);
@@ -727,13 +731,6 @@ function eliminarFiltro() {
         p[index].classList.remove("btn-select")
     }
 
-    // let filters = document.querySelector(".filters")
-    // const filter = filters.children;
-    // for (let i = 0; i < filter.length; i++) {
-    //   if (filter[i].style.display !== 'none') {
-    //    filter[i].style.display = 'none'
-    //   }
-    // }
 }
 
 function unificarAños() {
@@ -744,8 +741,6 @@ function unificarAños() {
     años_capitulost = años_capitulost.filter((item, index) => {
         return años_capitulost.indexOf(item) === index;
     })
-
-
 
 }
 
