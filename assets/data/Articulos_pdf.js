@@ -9,20 +9,20 @@ const Articulos_pdf = [
     {
         title:'Nueva Realidad Ambiental Colombiana',
         year: 1994,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_2.jpg',
-        url_2:'',
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_2.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_2.pdf',
     },
     {
         title:'Arranca Conformacion del Nuevo Invermar',
         year: 1994,
-        img_principal:'../assets//images/img_Articulos_pdf/ARTICULOS ERNESTO_3.jpg',
-        url_pdf:''
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_3.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_3.pdf'
     },
     {
         title:'Debilidades del Tripode Ambiental',
         year: 1995,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_4.jpg',
-        url_pdf:''
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_4.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_4.pdf'
     },
     {
         title:'Medio Ambiente',
@@ -39,22 +39,22 @@ const Articulos_pdf = [
     {
         title:'Lecturas Dominicales',
         year:1999,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_7.jpg',
-        url_pdf:'',
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_7.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_7.pdf',
 
     },
     {
         title:'Dirigibles,Vehículos Limpio y Barato',
         year:1999,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_8.jpg',
-       url_pdf:''
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_8.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_8.pdf'
 
     },
     {
         title:'Que Vadis Bogota',
         year:1999,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_9.jpg',
-        url_pdf:''
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_9.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_9.pdf'
     },
     {
         title:'De Rio a Johanesburgo ID',
@@ -68,7 +68,7 @@ const Articulos_pdf = [
         title:'Daños del Desarollo',
         year:2010,
         img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_11.jpg',
-        url_pdf:'',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_11.pdf',
 
     },
     {
@@ -86,8 +86,8 @@ const Articulos_pdf = [
     {
         title:'Agua y Desarrollo ',
         year:2009,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_14.jpg',
-        url_pdf:''
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_14.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_14.pdf'
     },
     {
         title:'El Medio Ambiente: ¿Una Nueva Oprtunidad? ',
@@ -98,8 +98,8 @@ const Articulos_pdf = [
     {
         title:'¿Río Más 20 O Río Menos 20?',
         year:2012,
-        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_16.jpg',
-        url_pdf:''
+        img_principal:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_16.png',
+        url_pdf:'../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_16.pdf'
     },
 
 

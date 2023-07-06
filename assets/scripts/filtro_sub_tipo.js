@@ -47,7 +47,7 @@ Array.from(categories).forEach((categorie) => {
 
     })
 })
-
+ 
 // funcion que  quita el color establecido  azul al darle clic, es diferente al del hover 
 function removeFilterSelec(p) {
   for (let i = 0; i < categories.length; i++) {
