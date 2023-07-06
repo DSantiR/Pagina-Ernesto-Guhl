@@ -1,4 +1,5 @@
 import Libros from '../data/libros.js'
+
 window.addEventListener("load", main);
 
 let libros_regional = document.getElementById('books_escala-regional')
@@ -19,7 +20,6 @@ let render_años = false;
 
 let libros = []
 let capitulos = []
-let años_mas_articulos = []
 let años_libros = []
 let años_capitulos = []
 let temporal = []

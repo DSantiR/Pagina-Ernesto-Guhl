@@ -21,6 +21,7 @@ let render_años = false
 let libros = []
 let capitulos = []
 let años_libros = []
+let años_mas_articulos = []
 let años_capitulos = []
 let temporal = []
 let cap_temporal = []
