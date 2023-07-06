@@ -44,7 +44,7 @@ var swiper = new Swiper(".mySwiper", {
 
 
 // funcion que obtinen el hrfe del enlace padre y abre una nueva pestaña con el enlace
-const iconos = document.querySelectorAll('.carrousel_icon_img');
+const iconos = document.querySelectorAll('.carrousel_icon');
 console.log(iconos)
 iconos.forEach(icono => {
   icono.addEventListener('click', (e) => {
